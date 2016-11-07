@@ -96,7 +96,7 @@ ComputeCharactersEdges.prototype.findMatch = function () {
                         var title_2 = JSON.stringify(this.characters_wk_2[a].v); //Title
                         var comicCell_2 = 'C' + row_2;
                         var comic_id_2 = JSON.stringify(this.characters_wk_2[comicCell_2].v); //Comic_id
-                        console.log(title + ":" + title_2);
+
                         if (title === title_2) {
                             var row = this.characterName_1 +
                                 "\t" + this.characterId_1 +
@@ -107,6 +107,7 @@ ComputeCharactersEdges.prototype.findMatch = function () {
                                 "\t" + title_2 +
                                 "\t" + comic_id_2 + "\n";
                             fs.appendFile(this.commonComics, row);
+                            console.log(title + ": Found a match for " + this.characterName_1 + " vs " + this.characterName_2);
                         }
 
                     }
@@ -116,6 +117,7 @@ ComputeCharactersEdges.prototype.findMatch = function () {
         }
         //Outer For loop Ends
     }
+    global.isProcessRunning = true;
 };
 
 module.exports = ComputeCharactersEdges;
