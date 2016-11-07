@@ -7,24 +7,30 @@ var marvel = api.createClient({
 });
 
 
-function CharactersComic(character_Id) {
+function CharactersComic(character_Id, character_Name) {
     // always initialize all instance properties
     this.writeStream;
     this.maxcount = 100;
     this.offset = 0;
     this.totalComics = 0;
     this.characterId = character_Id;
+    this.characterName = character_Name;
     this.resultFunction = (function (data) {
         // parenthesis are not necessary
         this.printResultsintoExcel(data) // but might improve readability
+    }).bind(this);
+    this.errorFunction = (function (data) {
+        // parenthesis are not necessary
+        this.errorHandling(data) // but might improve readability
     }).bind(this);
 }
 
 //Wrapper class to get list of all Comics
 CharactersComic.prototype.getListofComics = function () {
-    var characters_filename = "data/comics/" + this.characterId + "_List.xls";
+    var characters_filename = "data/comics/" + this.characterName + "_" + this.characterId + "_List.xls";
     this.writeStream = fs.createWriteStream(characters_filename);
-    var header = "Character_id" +
+    var header = "Character_name" +
+        "\t" + "Character_id" +
         "\t" + "Comic_id" +
         "\t" + "Digital_id" +
         "\t" + "Title" +
@@ -46,14 +52,14 @@ CharactersComic.prototype.getListofComics = function () {
 
 //Error Handling for marvel api connection
 CharactersComic.prototype.errorHandling = function (res) {
-    console.error(res);
+    console.error(this.characterName + ":" + res);
 };
 
 // Connect to API to get the List of Comics
 CharactersComic.prototype.getListofComicsFromAPI = function () {
     marvel.characters.comics(this.characterId, this.maxcount, this.offset)
         .then(this.resultFunction)
-        .fail(this.errorHandling)
+        .fail(this.errorFunction)
         .done();
 }
 
@@ -66,7 +72,8 @@ CharactersComic.prototype.printResultsintoExcel = function (res) {
     }
     this.totalComics = res.meta.total;
     this.offset = res.meta.offset + res.meta.count;
-    console.log("CharacterID:" + this.characterId + "; Current Offset : " + this.offset + "; TotalComics:" + res.meta.total + "; Count:" + res.meta.count);
+    console.log("CharacterID:" + this.characterId +
+        ";characterName:" + this.characterName + "; Current Offset : " + this.offset + "; TotalComics:" + res.meta.total + ";");
     if (this.offset < this.totalComics) {
         this.getListofComicsFromAPI(this.characterId, this.offset);
     } else {
@@ -102,7 +109,8 @@ CharactersComic.prototype.printEachRow = function (comic) {
         }
     }
 
-    var row = this.characterId +
+    var row = this.characterName +
+        "\t" + this.characterId +
         "\t" + comic.id +
         "\t" + comic.digitalId +
         "\t" + comic.title +
