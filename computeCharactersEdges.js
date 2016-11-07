@@ -14,6 +14,8 @@ function ComputeCharactersEdges(character_id_1, character_Name_1, character_id_2
     this.writeStream;
     this.resultFunction = (function (data) {
         // parenthesis are not necessary
+        console.log("inside" + this.characterName_1);
+
         this.createFileAndHeader(data) // but might improve readability
     }).bind(this);
 }
@@ -42,7 +44,9 @@ ComputeCharactersEdges.prototype.createFileAndHeader = function (err) {
             "\t" + "target" +
             "\t" + "target_id" +
             "\t" + "title" +
-            "\t" + "title_2" + "\n";
+            "\t" + "comic_id" +
+            "\t" + "title_2" +
+            "\t" + "comic_id_2" + "\n";
         this.writeStream.write(header);
     } else {
         console.log('Some other error: ', err.code);
@@ -51,29 +55,60 @@ ComputeCharactersEdges.prototype.createFileAndHeader = function (err) {
 }
 
 ComputeCharactersEdges.prototype.findMatch = function () {
+
     for (z in this.characters_wk_1) {
+
+        var tt = 0;
+        for (var i = 0; i < z.length; i++) {
+            if (!isNaN(z[i])) {
+                tt = i;
+                break;
+            }
+        };
+        var col = z.substring(0, tt);
+        var row = parseInt(z.substring(tt));
         /* all keys that do not begin with "!" correspond to cell addresses */
         if (z[0] === '!') continue;
         if (z[0] === 'E') {
-            var title = JSON.stringify(this.characters_wk_1[z].v);
-            //console.log("Outer");
-            for (a in this.characters_wk_2) {
-                //console.log("in");
-                if (a[0] === '!') continue;
-                if (a[0] === 'E') {
-                    var title_2 = JSON.stringify(this.characters_wk_2[a].v);
-                    //console.log("" + title + ";" + title_2);
-                    if (title_2.trim() != 'Title') {
+            var title = JSON.stringify(this.characters_wk_1[z].v); //Title
+            var comicCell = 'C' + row;
+            var comic_id_1 = JSON.stringify(this.characters_wk_1[comicCell].v); //Comic_id
+
+            if (row == 1) {
+                //console.log("First Line" + title);// Some how title is printing
+            } else {
+                //console.log("Outer");
+                for (a in this.characters_wk_2) {
+
+                    var tt_2 = 0;
+                    for (var j = 0; j < a.length; j++) {
+                        if (!isNaN(a[j])) {
+                            tt_2 = j;
+                            break;
+                        }
+                    };
+                    var col_2 = a.substring(0, tt_2);
+                    var row_2 = parseInt(a.substring(tt_2));
+
+                    if (a[0] === '!') continue;
+                    if (a[0] === 'E') {
+
+                        var title_2 = JSON.stringify(this.characters_wk_2[a].v); //Title
+                        var comicCell_2 = 'C' + row_2;
+                        var comic_id_2 = JSON.stringify(this.characters_wk_2[comicCell_2].v); //Comic_id
+                        console.log(title + ":" + title_2);
                         if (title === title_2) {
                             var row = this.characterName_1 +
                                 "\t" + this.characterId_1 +
                                 "\t" + this.characterName_2 +
                                 "\t" + this.characterId_2 +
                                 "\t" + title +
-                                "\t" + title_2 + "\n";
+                                "\t" + comic_id_1 +
+                                "\t" + title_2 +
+                                "\t" + comic_id_2 + "\n";
                             fs.appendFile(this.commonComics, row);
-                            //console.log("Found Match");
                         }
+
                     }
                 }
             }
@@ -84,6 +119,3 @@ ComputeCharactersEdges.prototype.findMatch = function () {
 };
 
 module.exports = ComputeCharactersEdges;
-
-var edges = new ComputeCharactersEdges("1009159", "Archangel", "1009175", "Beast");
-edges.compute();
