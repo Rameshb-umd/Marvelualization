@@ -3,122 +3,142 @@
     {
       "name": "Spider-Man",
       "id": 1009610,
-      "group": 2,
-      "order": 0
+      "group": 0,
+      "order": 0,
+      "comicCount": 2812
     },
     {
       "name": "Iron Man",
       "id": 1009368,
-      "group": 3,
-      "order": 1
+      "group": 1,
+      "order": 1,
+      "comicCount": 2075
     },
     {
       "name": "Captain America",
       "id": 1009220,
-      "group": 4,
-      "order": 2
+      "group": 2,
+      "order": 2,
+      "comicCount": 1513
     },
     {
       "name": "Hulk",
       "id": 1009351,
-      "group": 5,
-      "order": 3
+      "group": 3,
+      "order": 3,
+      "comicCount": 1346
     },
     {
       "name": "Thor",
       "id": 1009664,
-      "group": 6,
-      "order": 4
+      "group": 4,
+      "order": 4,
+      "comicCount": 1276
     },
     {
       "name": "Avengers",
       "id": 1009165,
-      "group": 7,
-      "order": 5
+      "group": 5,
+      "order": 5,
+      "comicCount": 1125
     },
     {
       "name": "Fantastic Four",
       "id": 1009299,
-      "group": 8,
-      "order": 6
+      "group": 6,
+      "order": 6,
+      "comicCount": 1097
     },
     {
       "name": "Daredevil",
       "id": 1009262,
-      "group": 9,
-      "order": 7
+      "group": 7,
+      "order": 7,
+      "comicCount": 847
     },
     {
       "name": "Human Torch",
       "id": 1009356,
-      "group": 10,
-      "order": 8
+      "group": 8,
+      "order": 8,
+      "comicCount": 804
     },
     {
       "name": "Cyclops",
       "id": 1009257,
-      "group": 11,
-      "order": 9
+      "group": 9,
+      "order": 9,
+      "comicCount": 723
     },
     {
       "name": "Storm",
       "id": 1009629,
-      "group": 12,
-      "order": 10
+      "group": 10,
+      "order": 10,
+      "comicCount": 623
     },
     {
       "name": "Beast",
       "id": 1009175,
-      "group": 13,
-      "order": 11
+      "group": 11,
+      "order": 11,
+      "comicCount": 589
     },
     {
       "name": "Colossus",
       "id": 1009243,
-      "group": 14,
-      "order": 12
+      "group": 12,
+      "order": 12,
+      "comicCount": 555
     },
     {
       "name": "Sub-Mariner",
       "id": 1010791,
-      "group": 15,
-      "order": 13
+      "group": 13,
+      "order": 13,
+      "comicCount": 536
     },
     {
       "name": "Archangel",
       "id": 1009159,
-      "group": 16,
-      "order": 14
+      "group": 14,
+      "order": 14,
+      "comicCount": 534
     },
     {
       "name": "Doctor Strange",
       "id": 1009282,
-      "group": 17,
-      "order": 15
+      "group": 15,
+      "order": 15,
+      "comicCount": 519
     },
     {
       "name": "Deadpool",
       "id": 1009268,
-      "group": 18,
-      "order": 16
+      "group": 16,
+      "order": 16,
+      "comicCount": 512
     },
     {
       "name": "Nightcrawler",
       "id": 1009472,
-      "group": 19,
-      "order": 17
+      "group": 17,
+      "order": 17,
+      "comicCount": 449
     },
     {
       "name": "Mr. Fantastic",
       "id": 1009459,
-      "group": 20,
-      "order": 18
+      "group": 18,
+      "order": 18,
+      "comicCount": 438
     },
     {
       "name": "Rogue",
       "id": 1009546,
-      "group": 21,
-      "order": 19
+      "group": 19,
+      "order": 19,
+      "comicCount": 429
     }
   ],
   "links": [

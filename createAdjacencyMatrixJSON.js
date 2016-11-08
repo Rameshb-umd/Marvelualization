@@ -89,7 +89,8 @@ CreateAdjacencyMatrixJSON.prototype.createNodeListJSON = function () {
     for (var i = 2; i <= 21; i++) {
         var characterID = characters_wk["A" + i].v;
         var characterName = characters_wk["B" + i].v;
-        var nodeObject = new nodeListJson(characterName, characterID, i, order);
+        var comicCount = characters_wk["C" + i].v;
+        var nodeObject = new nodeListJson(characterName, characterID, order, order, comicCount);
         nodeListArray.push(nodeObject);
         this.nodeOrder.set(characterName, order);
         order++;
@@ -106,11 +107,12 @@ function edgeListJson(source, target, value, source_id, target_id) {
     this.target_id = target_id;
 }
 
-function nodeListJson(name, id, group, order) {
+function nodeListJson(name, id, group, order, comicCount) {
     this.name = name;
     this.id = id;
     this.group = group;
     this.order = order;
+    this.comicCount = comicCount;
 }
 
 function matrixJson(nodes, links) {
