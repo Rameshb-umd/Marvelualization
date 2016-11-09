@@ -10,6 +10,7 @@ function CreateAdjacencyMatrixJSON() {
     this.edges = this.workbook.Sheets[first_sheet_name];
     this.edgelist = new HashMap();
     this.nodeOrder = new HashMap();
+    this.nodeID = new HashMap();;
 }
 
 
@@ -72,7 +73,9 @@ CreateAdjacencyMatrixJSON.prototype.createEdgeListJSON = function () {
         var source = _src_target[0];
         var target = _src_target[1];
         var value = this.edgelist.get(key);
-        var edgeObject = new edgeListJson(this.nodeOrder.get(source), this.nodeOrder.get(target), value, source, target);
+        var edgeObject = new edgeListJson(this.nodeOrder.get(source), this.nodeOrder.get(target),
+            value, source, target,
+            this.nodeOrder.get(source), this.nodeOrder.get(target));
         edgeListArray.push(edgeObject);
     }
     return edgeListArray;
@@ -86,25 +89,28 @@ CreateAdjacencyMatrixJSON.prototype.createNodeListJSON = function () {
     var first_sheet_name = workbook.SheetNames[0];
     var characters_wk = workbook.Sheets[first_sheet_name];
     var order = 0;
-    for (var i = 2; i <= 21; i++) {
+    for (var i = 2; i <= 51; i++) {
         var characterID = characters_wk["A" + i].v;
         var characterName = characters_wk["B" + i].v;
         var comicCount = characters_wk["C" + i].v;
         var nodeObject = new nodeListJson(characterName, characterID, order, order, comicCount);
         nodeListArray.push(nodeObject);
         this.nodeOrder.set(characterName, order);
+        this.nodeID.set(characterName, characterID);
         order++;
     };
     return nodeListArray;
 };
 
 
-function edgeListJson(source, target, value, source_id, target_id) {
+function edgeListJson(source, target, value, source_id, target_id, source_name, target_name) {
     this.source = source;
     this.target = target;
     this.value = value;
     this.source_id = source_id;
     this.target_id = target_id;
+    this.source_name = source_name;
+    this.target_name = target_name;
 }
 
 function nodeListJson(name, id, group, order, comicCount) {
