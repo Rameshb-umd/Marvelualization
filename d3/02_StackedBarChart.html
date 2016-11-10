@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<title>Marvel - Grouped Stackbar Matrix</title>
+
 <style>
     body {
         font: 10px sans-serif;
@@ -11,19 +13,6 @@
         stroke: #000;
         shape-rendering: crispEdges;
     }
-    /*
-.bar {
-  fill: steelblue;
-  stroke: black;
-  stroke-width: 50;
-}
-*/
-    /*
-.x.axis path {
-  display: none;
-}
- 
-*/
 </style>
 
 <body>
@@ -91,16 +80,10 @@
 
             });
             x0.domain(result.data.map(function (d) {
-                //console.log(d.year + ">>>");
                 return d.year;
             }));
 
-
-            //           
-            //console.log("ssd--proper" + innercolumns);
             var innercolumns = eval("(" + result.innercolumns + ')');
-            //console.log("ssd;;;;;;" + result.innercolumns);
-
             x1.domain(d3.keys(innercolumns)).rangeRoundBands([0, x0.rangeBand()]);
 
             y.domain([0, d3.max(result.data, function (d) {
@@ -129,7 +112,6 @@
                 .enter().append("g")
                 .attr("class", "g")
                 .attr("transform", function (d) {
-                    //console.log("Stack" + JSON.stringify(d));
                     return "translate(" + x0(d.year) + ",0)";
                 })
 
@@ -153,14 +135,10 @@
                     return color(d.column);
                 })
                 .style("fill-opacity", function (d) {
-                    //console.log(d.z + "???" + z(d.z));
                     console.log(z(d.yend - d.ybegin) + "The Tickesn");
                     return z(d.yend - d.ybegin);
                 })
-                .style("stroke-width", 0.2) // set the stroke width
-                .style("stroke", "black");
-
-
-
+                .style("stroke-width", 0.3) // set the stroke width
+                .style("stroke", "#545050");
         });
     </script>
