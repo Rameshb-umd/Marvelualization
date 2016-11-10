@@ -1,102 +1,172 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style>
-
+ 
+body {
+  font: 10px sans-serif;
+}
+ 
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+ 
+/*
 .bar {
   fill: steelblue;
+  stroke: black;
+  stroke-width: 50;
 }
-
-.axis path {
+*/
+ 
+/*
+.x.axis path {
   display: none;
 }
-
+ 
+*/
 </style>
-<svg width="960" height="500"></svg>
-<script src="//d3js.org/d3.v4.min.js"></script>
+<body>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script>
-
-var svg = d3.select("svg"),
-    margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = +svg.attr("width") - margin.left - margin.right,
-    height = +svg.attr("height") - margin.top - margin.bottom,
-    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-var x = d3.scaleBand()
-    .rangeRound([0, width])
-    .padding(0.1)
-    .align(0.1);
-
-var y = d3.scaleLinear()
-    .rangeRound([height, 0]);
-
-var z = d3.scaleOrdinal()
-    .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
-
-var stack = d3.stack();
-
-d3.csv("data.csv", type, function(error, data) {
-  if (error) throw error;
-
-  data.sort(function(a, b) { return b.total - a.total; });
-
-  x.domain(data.map(function(d) { return d.State; }));
-  y.domain([0, d3.max(data, function(d) { return d.total; })]).nice();
-  z.domain(data.columns.slice(1));
-
-  g.selectAll(".serie")
-    .data(stack.keys(data.columns.slice(1))(data))
-    .enter().append("g")
-      .attr("class", "serie")
-      .attr("fill", function(d) { return z(d.key); })
-    .selectAll("rect")
-    .data(function(d) { return d; })
-    .enter().append("rect")
-      .attr("x", function(d) { return x(d.data.State); })
-      .attr("y", function(d) { return y(d[1]); })
-      .attr("height", function(d) { return y(d[0]) - y(d[1]); })
-      .attr("width", x.bandwidth());
-
-  g.append("g")
-      .attr("class", "axis axis--x")
+var margin = {top: 20, right: 20, bottom: 30, left: 40},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+ 
+var x0 = d3.scale.ordinal()
+    .rangeRoundBands([0, width], 0.5);
+ 
+var x1 = d3.scale.ordinal();
+ 
+var y = d3.scale.linear()
+          .range([height, 0]);
+ 
+var xAxis = d3.svg.axis()
+                  .scale(x0)
+                  .orient("bottom");
+ 
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .tickFormat(d3.format(".2s"));
+ 
+var color = d3.scale.ordinal()
+    .range(["#FF0000", "#FF0000", "#FF0000", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"])
+;
+ 
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+    .attr('stroke', '#black')
+    .attr('stroke-width', 2);
+ 
+var yBegin;
+ 
+var innerColumns = {
+  "column1" : ["Iron Man_Price1","Iron Man_Price2","Iron Man_Price3"],
+  "column2" : ["Captain America_Price1", "Captain America_Price2"]
+}
+ 
+d3.csv("json/olddata.csv", function(error, data) {
+  var columnHeaders = d3.keys(data[0]).filter(function(key) { return key !== "State"; });
+    console.log("columnHeaders:"+columnHeaders);
+  //color.domain(d3.keys(data[0]).filter(function(key) { return key !== "State"; }));
+  data.forEach(function(d) {
+    var yColumn = new Array();
+    d.columnDetails = columnHeaders.map(function(name) {
+        //console.log("ColumHeader:>>Map"+name);
+      for (ic in innerColumns) {
+        if($.inArray(name, innerColumns[ic]) >= 0){
+          if (!yColumn[ic]){
+            yColumn[ic] = 0;
+          }
+          yBegin = yColumn[ic];
+          yColumn[ic] += +d[name];
+          return {name: name, column: ic, yBegin: yBegin, yEnd: +d[name] + yBegin,};
+        }
+      }
+    });
+    d.total = d3.max(d.columnDetails, function(d) { 
+      return d.yEnd; 
+    });
+      console.log("console:colum"+JSON.stringify(d.columnDetails));
+  });
+ 
+  x0.domain(data.map(function(d) { return d.State; }));
+  x1.domain(d3.keys(innerColumns)).rangeRoundBands([0, x0.rangeBand()]);
+ 
+  y.domain([0, d3.max(data, function(d) { 
+    return d.total; 
+  })]);
+ 
+  svg.append("g")
+      .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
-
-  g.append("g")
-      .attr("class", "axis axis--y")
-      .call(d3.axisLeft(y).ticks(10, "s"))
+      .call(xAxis)
+      
+    
+  ;
+ 
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
     .append("text")
-      .attr("x", 2)
-      .attr("y", y(y.ticks(10).pop()))
-      .attr("dy", "0.35em")
-      .attr("text-anchor", "start")
-      .attr("fill", "#000")
-      .text("Population");
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".7em")
+      .style("text-anchor", "end")
+      .text("");
+ 
+  var project_stackedbar = svg.selectAll(".project_stackedbar")
+      .data(data)
+    .enter().append("g")
+      .attr("class", "g")
+      .attr("transform", function(d) { return "translate(" + x0(d.State) + ",0)"; })
 
-  var legend = g.selectAll(".legend")
-    .data(data.columns.slice(1).reverse())
+    
+ 
+  project_stackedbar.selectAll("rect")
+      .data(function(d) { return d.columnDetails; })
+    .enter().append("rect")
+      .attr("width", x1.rangeBand())
+      .attr("x", function(d) { 
+        return x1(d.column);
+         })
+      .attr("y", function(d) { 
+        return y(d.yEnd); 
+      })
+      .attr("height", function(d) { 
+        return y(d.yBegin) - y(d.yEnd); 
+      })
+      .style("fill", function(d) { return color(d.name); })
+      .style("stroke-width", 1)    // set the stroke width
+      .style("stroke", "black"); 
+ 
+ 
+  var legend = svg.selectAll(".legend")
+      .data(columnHeaders.slice().reverse())
     .enter().append("g")
       .attr("class", "legend")
-      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; })
-      .style("font", "10px sans-serif");
-
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+ 
   legend.append("rect")
       .attr("x", width - 18)
       .attr("width", 18)
       .attr("height", 18)
-      .attr("fill", z);
+      .style("fill", color);
 
   legend.append("text")
       .attr("x", width - 24)
       .attr("y", 9)
       .attr("dy", ".35em")
-      .attr("text-anchor", "end")
+      .style("text-anchor", "end")
       .text(function(d) { return d; });
+ 
 });
-
-function type(d, i, columns) {
-  for (i = 1, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
-  d.total = t;
-  return d;
-}
-
+ 
 </script>
