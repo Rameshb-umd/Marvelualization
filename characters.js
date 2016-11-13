@@ -2,8 +2,8 @@ var api = require('marvel-api');
 var fs = require('fs');
 
 var marvel = api.createClient({
-    publicKey: 'a8737e8ce63836b20a6db288a19286be',
-    privateKey: '47fa5c8b68c7ff434081c16a9fa9fa214575bf0c'
+    publicKey: '',
+    privateKey: ''
 });
 
 //Class
