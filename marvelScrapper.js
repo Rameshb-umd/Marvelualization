@@ -151,36 +151,35 @@ function characterDetails(url, character) {
     console.log("Scrapping for character:" + character);
     var detailedInfo = new HashMap();
     var res = request('GET', url);
-    if (res.statusCode != 200) {
+    if (res.statusCode == 200) {
         console.log("Scrapping failed for character:" + character);
-        detailedInfo.set("message", "error");
-    } else {
         detailedInfo.set("message", "success");
+        var $ = cheerio.load(res.getBody());
+        //Main details
+        $('div#powerbox > p').each(function (index) {
+            var title = $(this).find("b").text();
+            var value = $(this).text();
+            value = replaceall(title, "", value);
+            value = value.replace(/\n/g, " ");
+            detailedInfo.set(title, value);
+            //console.log(title + ":" + unescape(value));
+        });
+
+        var groupAfflications = $('div#char-affiliation-content').text();
+        detailedInfo.set("Groups", groupAfflications);
+        //console.log(groupAfflications);
+
+        //Phyicall Attributes
+        $('div#char-physicals-content > p').each(function (index) {
+            var title = $(this).find("b").text();
+            var value = $(this).text();
+            value = replaceall(title, "", value);
+            value = value.replace(/\n/g, " ");
+            detailedInfo.set(title, value);
+            //console.log(title + ":" + unescape(value));
+        });
+    } else {
+        detailedInfo.set("message", "error");
     }
-    var $ = cheerio.load(res.getBody());
-
-    //Main details
-    $('div#powerbox > p').each(function (index) {
-        var title = $(this).find("b").text();
-        var value = $(this).text();
-        value = replaceall(title, "", value);
-        value = value.replace(/\n/g, " ");
-        detailedInfo.set(title, value);
-        //console.log(title + ":" + unescape(value));
-    });
-
-    var groupAfflications = $('div#char-affiliation-content').text();
-    detailedInfo.set("Groups", groupAfflications);
-    //console.log(groupAfflications);
-
-    //Phyicall Attributes
-    $('div#char-physicals-content > p').each(function (index) {
-        var title = $(this).find("b").text();
-        var value = $(this).text();
-        value = replaceall(title, "", value);
-        value = value.replace(/\n/g, " ");
-        detailedInfo.set(title, value);
-        //console.log(title + ":" + unescape(value));
-    });
     return detailedInfo;
 }

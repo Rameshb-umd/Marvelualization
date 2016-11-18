@@ -1,0 +1,41 @@
+{
+  "name": "marvelualization",
+  "version": "1.0.0",
+  "description": "Marvel Visualization Code",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "deasync": "^0.1.9",
+    "exceljs": "^0.2.36",
+    "fs": "^0.0.1-security",
+    "hashmap": "^2.0.6",
+    "jsonfile": "^2.4.0",
+    "marvel-api": "^1.1.0",
+    "marvel": "^1.0.2",
+    "replaceall": "^0.1.6",
+    "request": "^2.78.0",
+    "sync": "^0.2.5",
+    "sync-request": "^3.0.1",
+    "synchronize": "^2.0.0",
+    "xlsjs": "^0.7.5",
+    "xlsx": "^0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rameshb-umd/Marvelualization.git"
+  },
+  "keywords": [
+    "Marvel",
+    "Visualization"
+  ],
+  "author": "Ramesh Balasekaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rameshb-umd/Marvelualization/issues"
+  },
+  "homepage": "https://github.com/Rameshb-umd/Marvelualization#readme"
+}
