@@ -152,7 +152,6 @@ function characterDetails(url, character) {
     var detailedInfo = new HashMap();
     var res = request('GET', url);
     if (res.statusCode == 200) {
-        console.log("Scrapping failed for character:" + character);
         detailedInfo.set("message", "success");
         var $ = cheerio.load(res.getBody());
         //Main details
@@ -180,6 +179,8 @@ function characterDetails(url, character) {
         });
     } else {
         detailedInfo.set("message", "error");
+        console.log("Scrapping failed for character:" + character);
+
     }
     return detailedInfo;
 }
