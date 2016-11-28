@@ -10,11 +10,11 @@ var workbook = new Excel.Workbook();
 workbook.xlsx.readFile("data/marvel_characters_list.xlsx")
     .then(function (worksheet) {
         console.log("Open Excel Sheet");
-        scrapCharacterInfo(worksheet);
+        getListofUniqueValues(worksheet);
     });
 
-//Scarp characters infor for each url
-function scrapCharacterInfo(worksheet) {
+//get list of unique values from excel
+function getListofUniqueValues(worksheet) {
     var worksheet = workbook.getWorksheet(1);
     //createHeader(worksheet);
     var countries = new HashMap();
