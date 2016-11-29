@@ -1,0 +1,5470 @@
+[
+  {
+    "name": "Spider-Man",
+    "id": 1009610,
+    "city": " Forest Hills, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Iron Man",
+    "id": 1009368,
+    "city": " Long Island, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Captain America",
+    "id": 1009220,
+    "city": " New York, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hulk",
+    "id": 1009351,
+    "city": " Dayton, Ohio ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Thor",
+    "id": 1009664,
+    "city": " A cave in Norway ",
+    "location": "Asgard",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Daredevil",
+    "id": 1009262,
+    "city": " New York City ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Human Torch",
+    "id": 1009356,
+    "city": " Glenville, Long Island, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Cyclops",
+    "id": 1009257,
+    "city": " Anchorage, Alaska ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Storm",
+    "id": 1009629,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Dual Citizen"
+  },
+  {
+    "name": "Beast",
+    "id": 1009175,
+    "city": " Dundee, Illinois ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Colossus",
+    "id": 1009243,
+    "city": " Ust-Ordynski Collective, near Lake Baikal, Siberia, Russia ",
+    "location": "United States",
+    "locationType": "Dual Citizen"
+  },
+  {
+    "name": "Sub-Mariner",
+    "id": 1010791,
+    "city": " Atlantis ",
+    "location": "United States",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Archangel",
+    "id": 1009159,
+    "city": " Centerport, Long Island, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Doctor Strange",
+    "id": 1009282,
+    "city": " Philadelphia, Pennsylvania ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Deadpool",
+    "id": 1009268,
+    "city": " Unrevealed location in Canada ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Nightcrawler",
+    "id": 1009472,
+    "city": " Bavaria, Germany ",
+    "location": "Germany ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mr. Fantastic",
+    "id": 1009459,
+    "city": " Central City, California "
+  },
+  {
+    "name": "Rogue",
+    "id": 1009546,
+    "city": " Caldecott County, Mississippi ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Thing",
+    "id": 1009662,
+    "city": " Manhattan, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Punisher",
+    "id": 1009515,
+    "city": " Queens, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Iceman",
+    "id": 1009362,
+    "city": " Port Washington, Long Island, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Invisible Woman",
+    "id": 1009366,
+    "city": " Glenville, Long Island, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Silver Surfer",
+    "id": 1009592,
+    "city": " Planet Zenn-La, Deneb System, Milky Way Galaxy ",
+    "location": "Zenn-La ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Captain Marvel (Carol Danvers)",
+    "id": 1010338,
+    "city": " Boston, Massachusetts "
+  },
+  {
+    "name": "Black Panther",
+    "id": 1009187,
+    "city": " Wakanda ",
+    "location": "Sudan",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Black Widow",
+    "id": 1009189,
+    "city": " Stalingrad, former U.S.S.R. "
+  },
+  {
+    "name": "Gambit",
+    "id": 1009313,
+    "city": " New Orleans, Louisiana (presumed) ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "She-Hulk (Jennifer Walters)",
+    "id": 1009583,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Nick Fury",
+    "id": 1009471,
+    "city": " Clinton, New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Professor X",
+    "id": 1009504,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Cable",
+    "id": 1009214,
+    "city": " Salem Center, Westchester County, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Vision",
+    "id": 1009697,
+    "city": " Inapplicable ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Mary Jane Watson",
+    "id": 1009708,
+    "city": " Montoursville, PA ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Scarlet Witch",
+    "id": 1009562,
+    "city": " Wundagore Mountain, Transia ",
+    "location": "United States",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Magneto",
+    "id": 1009417,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Hawkeye",
+    "id": 1009338,
+    "city": " Waverly, Iowa ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Psylocke",
+    "id": 1009512,
+    "city": " Braddock Manor, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Bishop",
+    "id": 1009182,
+    "city": " Mutant relocation camp in Brooklyn, New York on an alternate 21st Century Earth ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Iron Fist (Danny Rand)",
+    "id": 1009367,
+    "city": " Unrevealed ",
+    "location": "China",
+    "locationType": "Dual Citizen"
+  },
+  {
+    "name": "Cannonball",
+    "id": 1009219,
+    "city": " Cumberland County, Kentucky ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Emma Frost",
+    "id": 1009310,
+    "city": " Boston, Massachusetts ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hank Pym",
+    "id": 1011490,
+    "city": " Elmsford, New York "
+  },
+  {
+    "name": "Havok",
+    "id": 1009337,
+    "city": " Honolulu, Hawaii ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spider-Man (Ultimate)",
+    "id": 1011010,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ghost Rider (Johnny Blaze)",
+    "id": 1009318,
+    "city": " Waukegan, Illinois ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Quicksilver",
+    "id": 1009524,
+    "city": " Wundagore Mountain, Transia, Europe "
+  },
+  {
+    "name": "Luke Cage",
+    "id": 1009215,
+    "city": " New York City ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "J. Jonah Jameson",
+    "id": 1009372,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Doctor Doom",
+    "id": 1009281,
+    "city": " A camp outside Haasenstadt (now Doomstadt), Latveria ",
+    "location": "Romania",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Loki",
+    "id": 1009407,
+    "city": " Jotunheim, Asgard ",
+    "location": "Asgard",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Polaris",
+    "id": 1009499,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Jubilee",
+    "id": 1009381,
+    "city": " Beverly Hills, Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sabretooth",
+    "id": 1009554,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Banshee",
+    "id": 1009168,
+    "city": " Cassidy Keep, County Mayo, Ireland ",
+    "location": "Ireland ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Dazzler",
+    "id": 1009267,
+    "city": " Gardendale, Long Island, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spider-Girl (May Parker)",
+    "id": 1009609,
+    "city": " Manhattan, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Captain Marvel (Mar-Vell)",
+    "id": 1009224,
+    "city": " City of Rad-Nam, Kree-Lar, Planet Hala, Kree Galaxy ",
+    "location": "Kree Empire",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Kitty Pryde",
+    "id": 1009508,
+    "city": " Deerfield, Illinois ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sunspot",
+    "id": 1009638,
+    "city": " Rio de Janeiro, Brazil ",
+    "location": "Brazil ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Juggernaut",
+    "id": 1009382,
+    "city": " Berkley, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Moon Knight",
+    "id": 1009452,
+    "city": " Chicago, Illinois ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hercules",
+    "id": 1009343,
+    "city": " Thebes, Greece ",
+    "location": "Greece ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Odin",
+    "id": 1009480,
+    "city": " Unrevealed ",
+    "location": "Asgard",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Norman Osborn",
+    "id": 1009325,
+    "city": " Hartford, Connecticut ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Kingpin",
+    "id": 1009389,
+    "city": " Unknown, probably in New York City area ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Nova",
+    "id": 1009477,
+    "city": " Queens, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Banshee (Theresa Rourke)",
+    "id": 1009596,
+    "city": " Cassidy Keep, County Mayo, Ireland ",
+    "location": "Ireland ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Two-Gun Kid",
+    "id": 1010852,
+    "city": " unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Galactus",
+    "id": 1009312,
+    "city": " (Galan) Taa; (Galactus) the Cosmic Egg ",
+    "location": "Taa",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Sif",
+    "id": 1009588,
+    "city": " Asgard ",
+    "location": "Asgard",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Thanos",
+    "id": 1009652,
+    "city": " Eternal colony, Titan (moon of Saturn) ",
+    "location": "Titan",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Domino",
+    "id": 1009277,
+    "city": " Project: Armageddon base, Florida ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "May Parker",
+    "id": 1009490,
+    "city": " Brooklyn, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spider-Woman (Jessica Drew)",
+    "id": 1009608,
+    "city": " London, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Adam Warlock",
+    "id": 1010354,
+    "city": " The Beehive, Shard Island, Atlantic Ocean ",
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Forge",
+    "id": 1009309,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Falcon",
+    "id": 1009297,
+    "city": " New York City, New York "
+  },
+  {
+    "name": "Elektra",
+    "id": 1009288,
+    "city": " Unrevealed ",
+    "location": "Greece",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mystique",
+    "id": 1009465,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Red Skull",
+    "id": 1009535,
+    "city": " An unidentified village in Germany ",
+    "location": "Germany",
+    "locationType": "Real"
+  },
+  {
+    "name": "Black Cat",
+    "id": 1009185,
+    "city": " Flushing, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Captain Britain",
+    "id": 1009223,
+    "city": " Braddock Manor, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Black Knight (Sir Percy of Scandia)",
+    "id": 1009186,
+    "city": " Camelot Castle, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Doctor Octopus",
+    "id": 1009276,
+    "city": " Schenectady, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Jean Grey",
+    "id": 1009327,
+    "city": " Annandale-on-Hudson, New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shatterstar",
+    "id": 1009580,
+    "city": " Mojoworld ",
+    "location": "Mojoworld ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Lilandra",
+    "id": 1009402,
+    "city": " The Aerie, native world of the Shi'ar ",
+    "location": "Shi'ar Empire ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Black Bolt",
+    "id": 1009184,
+    "city": " Attilan, Atlantic Ocean ",
+    "location": "United States",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Medusa",
+    "id": 1009438,
+    "city": " Island of Attilan, Atlantic Ocean ",
+    "location": "United States",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Firestar",
+    "id": 1009306,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Harry Osborn",
+    "id": 1009486,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Iron Patriot (James Rhodes)",
+    "id": 1009538,
+    "city": " Philadelphia, Pennsylvania ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sandman",
+    "id": 1009558,
+    "city": " Queens, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sasquatch (Walter Langkowski)",
+    "id": 1009560,
+    "city": " Edmonton, Alberta, Canada ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Electro",
+    "id": 1009287,
+    "city": " Endicott, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Howard The Duck",
+    "id": 1010373,
+    "city": " New Stork City, Duckworld ",
+    "location": "Duckworld",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Marrow",
+    "id": 1009425,
+    "city": " Morlock Tunnels ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Man-Thing",
+    "id": 1009420,
+    "city": " Omaha, Nebraska ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Venom (Flash Thompson)",
+    "id": 1009663,
+    "city": " Forest Hills, Queens, NY ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Patriot",
+    "id": 1009492,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Tigra (Greer Nelson)",
+    "id": 1009670,
+    "city": " Chicago, Illinois "
+  },
+  {
+    "name": "Gladiator (Kallark)",
+    "id": 1009321,
+    "city": " Unrevealed planet in the Shi'ar Galaxy ",
+    "location": "Shi'ar Empire ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Edwin Jarvis",
+    "id": 1011072,
+    "city": " Brooklyn, New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Misty Knight",
+    "id": 1010682,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Apocalypse",
+    "id": 1009156,
+    "city": " Akkaba region of Ancient Egypt ",
+    "location": "Egypt ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ultron",
+    "id": 1009685,
+    "city": " Created in Cresskill, New Jersey ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Carlie Cooper",
+    "id": 1011258,
+    "city": " Jackson Heights, Queens, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Clea",
+    "id": 1009239,
+    "city": " The Dark Dimension ",
+    "location": "Other Dimension",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Longshot",
+    "id": 1009408,
+    "city": " Unidentified world in \"Mojoverse\" dimension ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Kang",
+    "id": 1009384,
+    "city": " Other Earth, 31st century ",
+    "location": "Other Dimension",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Caliban",
+    "id": 1009216,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hope Summers",
+    "id": 1011428,
+    "city": " Cooperstown, Alaska ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Meltdown",
+    "id": 1009439,
+    "city": " Roanoke, Virginia ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Northstar",
+    "id": 1009476,
+    "city": " Montreal, Québec, Canada ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sunfire",
+    "id": 1009636,
+    "city": " Agarashima, Japan ",
+    "location": "Japan",
+    "locationType": "Real"
+  },
+  {
+    "name": "Penance (Robert Baldwin)",
+    "id": 1009493,
+    "city": " Springdale, Connecticut ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sentry (Robert Reynolds)",
+    "id": 1009571,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Toxin (Eddie Brock)",
+    "id": 1009692,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mephisto",
+    "id": 1009440,
+    "city": " Unknown ",
+    "location": "Hell",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Doc Samson",
+    "id": 1009275,
+    "city": " Tulsa, Oklahoma ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Justice",
+    "id": 1010760,
+    "city": " Saugerties, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Bullseye",
+    "id": 1009212,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Lizard",
+    "id": 1009404,
+    "city": " Coral Gables, Florida ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Vulture (Adrian Toomes)",
+    "id": 1009699,
+    "city": " Staten Island, New York City ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Blob",
+    "id": 1009199,
+    "city": " Lubbock, Texas ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Crystal",
+    "id": 1009255,
+    "city": " Attilan ",
+    "location": "United States",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Mysterio",
+    "id": 1009464,
+    "city": " New York, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Gwen Stacy",
+    "id": 1009619,
+    "city": " Unrevealed, presumably New York City ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Lockheed",
+    "id": 1009405,
+    "city": " Flock homeworld ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Red Hulk",
+    "id": 1011360,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Robbie Robertson",
+    "id": 1009545,
+    "city": " Harlem, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spider-Man (1602)",
+    "id": 1011054,
+    "city": " England "
+  },
+  {
+    "name": "Taskmaster",
+    "id": 1009648,
+    "city": " Bronx, New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Jocasta",
+    "id": 1009376,
+    "city": " unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Namor",
+    "id": 1009466,
+    "city": " Atlantis ",
+    "location": "United States",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Aurora",
+    "id": 1009163,
+    "city": " Montreal, Quebec, Canada ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Jessica Jones",
+    "id": 1009378,
+    "city": " Unrevealed, possibly Forest Hills, NY ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ka-Zar",
+    "id": 1011081,
+    "city": " Castle Plunder, Kentish Town, London, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Karnak",
+    "id": 1009385,
+    "city": " Island of Attilan, Atlantic Ocean ",
+    "location": "United States",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Morbius",
+    "id": 1009454,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Scarlet Spider (Kaine)",
+    "id": 1011426,
+    "city": " The Jackal's laboratory, New York City ",
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Mister Sinister",
+    "id": 1009447,
+    "city": " London, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mockingbird",
+    "id": 1011220,
+    "city": " San Diego, California "
+  },
+  {
+    "name": "Sharon Carter",
+    "id": 1009228,
+    "city": " Richmond, Virginia ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Colleen Wing",
+    "id": 1010676,
+    "city": " Japan ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Lady Deathstrike",
+    "id": 1009393,
+    "city": " Osaka, Japan ",
+    "location": "Japan",
+    "locationType": "Real"
+  },
+  {
+    "name": "Puck",
+    "id": 1009513,
+    "city": null,
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Jean Grey (Ultimate)",
+    "id": 1010946,
+    "city": " St. Louis, Missouri ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shaman",
+    "id": 1009576,
+    "city": " Sarcee Indian Reservation, Calgary, Canada ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Silver Sable",
+    "id": 1009590,
+    "city": " Symkaria ",
+    "location": "Serbia",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Anita Blake",
+    "id": 1010674,
+    "city": " St. Louis, MO ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Jean Grey",
+    "id": 1009496,
+    "city": " Annandale-on-Hudson, New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mastermind",
+    "id": 1009434,
+    "city": null,
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Mole Man",
+    "id": 1009449,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Storm (Ultimate)",
+    "id": 1010978,
+    "city": " Morocco ",
+    "location": "Morocco",
+    "locationType": "Real"
+  },
+  {
+    "name": "Absorbing Man",
+    "id": 1009148,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Cyclops (Ultimate)",
+    "id": 1010918,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sin",
+    "id": 1010898,
+    "city": " Isle of Exiles, Sargasso Sea ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Abomination (Emil Blonsky)",
+    "id": 1009146,
+    "city": " Zagreb, Yugoslavia ",
+    "location": "Croatia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Annihilus",
+    "id": 1009154,
+    "city": " Planet of Arthros, Sector 17A, Negative Zone ",
+    "location": " Arthros ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Beast (Ultimate)",
+    "id": 1010908,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Carnage",
+    "id": 1009227,
+    "city": " Brooklyn, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ares",
+    "id": 1010784,
+    "city": " Olympus ",
+    "location": " Olympus ",
+    "locationType": "Olympus "
+  },
+  {
+    "name": "Blink",
+    "id": 1009197,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Colossus (Ultimate)",
+    "id": 1010917,
+    "city": " Siberia, Russia ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spider-Girl (Anya Corazon)",
+    "id": 1009157,
+    "city": " Fort Greene, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Dormammu",
+    "id": 1009280,
+    "city": " Faltine Dimension ",
+    "location": "Other Dimension",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Mandarin",
+    "id": 1009421,
+    "city": " China ",
+    "location": "China",
+    "locationType": "Real"
+  },
+  {
+    "name": "Miss America",
+    "id": 1011424,
+    "city": " Washington D.C. ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Destiny",
+    "id": 1009271,
+    "city": " Salzburg, Austria ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sauron",
+    "id": 1009561,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spider-Man (Miles Morales)",
+    "id": 1016181,
+    "city": " Brooklyn, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Viper",
+    "id": 1009696,
+    "city": " Unrevealed location in Eastern Europe ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Boom Boom",
+    "id": 1010366,
+    "city": " Roanoke, Virginia ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Cloak",
+    "id": 1009241,
+    "city": " South Boston, MA ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Pyro",
+    "id": 1009522,
+    "city": " Sydney, Australia ",
+    "location": "Australia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Rachel Grey",
+    "id": 1009430,
+    "city": " Unrevealed location in an alternate future ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spiral (Rita Wayword)",
+    "id": 1009614,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Stryfe",
+    "id": 1009632,
+    "city": " Askani secret headquarters (cloned) ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "U.S. Agent",
+    "id": 1009682,
+    "city": " Custer's Grove, Georgia ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Blade",
+    "id": 1009191,
+    "city": " Soho, London,England ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Captain America (Ultimate)",
+    "id": 1010913,
+    "city": " Brooklyn, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Iceman (Ultimate)",
+    "id": 1010933,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Legion",
+    "id": 1009399,
+    "city": " Israel ",
+    "location": "Israel",
+    "locationType": "Real"
+  },
+  {
+    "name": "Machine Man",
+    "id": 1010805,
+    "city": " Broadhurst Center for the Advancement of Mechanized Research, Central City, California ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Marvel Boy",
+    "id": 1009427,
+    "city": " Trenton, New Jersey ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Nighthawk",
+    "id": 1010349,
+    "city": " Mamaroneck, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Thunderbird (Neal Shaara)",
+    "id": 1009667,
+    "city": " Calcutta, India ",
+    "location": "India",
+    "locationType": "Real"
+  },
+  {
+    "name": "Triathlon",
+    "id": 1010825,
+    "city": " Philadelphia, Pennsylvania "
+  },
+  {
+    "name": "Ant-Man (Eric O'Grady)",
+    "id": 1010802,
+    "city": " Lancaster, Vermont ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Dagger",
+    "id": 1009258,
+    "city": null,
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Dracula",
+    "id": 1010677,
+    "city": " Schassburg, Transylvania (now Sighisoara, Romania) ",
+    "location": "Romania",
+    "locationType": "Real"
+  },
+  {
+    "name": "Snowbird",
+    "id": 1009606,
+    "city": " Near Resolute Bay, Northwest Territories, Canada ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hepzibah",
+    "id": 1009342,
+    "city": " Planet Tryl'sart, Cyrane Om'ir, Shi'ar Empire ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mimic",
+    "id": 1009445,
+    "city": " Passiac, New Jersey ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Rhino",
+    "id": 1009537,
+    "city": " Unrevealed ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Rocket Raccoon",
+    "id": 1010744,
+    "city": " Unknown ",
+    "location": "Other Dimension",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Crossbones",
+    "id": 1009252,
+    "city": " Unrevealed "
+  },
+  {
+    "name": "Namora",
+    "id": 1009468,
+    "city": " Atlantic Ocean ",
+    "location": "United States",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Nick Fury (Ultimate)",
+    "id": 1011007,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Franklin Richards",
+    "id": 1009539,
+    "city": " New York, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hobgoblin (Roderick Kingsley)",
+    "id": 1009347,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Magma (Amara Aquilla)",
+    "id": 1009416,
+    "city": " Nova Roma (disputed) ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Onslaught",
+    "id": 1009483,
+    "city": " Xavier Institute for Higher Learning, Westchester, New York ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Star-Lord (Peter Quill)",
+    "id": 1010733,
+    "city": " Colorado ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Toad",
+    "id": 1009673,
+    "city": " York, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Triton",
+    "id": 1010335,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Chameleon",
+    "id": 1009234,
+    "city": " Russia ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Daken",
+    "id": 1011001,
+    "city": " Unrevealed, possibly Japan ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Diamondback (Rachel Leighton)",
+    "id": 1009274,
+    "city": " Austin, Texas "
+  },
+  {
+    "name": "Hellcat (Patsy Walker)",
+    "id": 1010351,
+    "city": " Centerville, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Maria Hill",
+    "id": 1011335,
+    "city": " Chicago, Illinois ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Rick Jones",
+    "id": 1009379,
+    "city": " Scarsdale, Arizona ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Kraven the Hunter",
+    "id": 1009391,
+    "city": " Volgograd (formerly Stalingrad), Russia ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Magneto (Ultimate)",
+    "id": 1010943,
+    "city": " Unknown ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Namorita",
+    "id": 1009469,
+    "city": " Atlantis ",
+    "location": "United States",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Photon",
+    "id": 1011045,
+    "city": " Titan ",
+    "location": "Titan",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Ronan",
+    "id": 1010344,
+    "city": " Hala, Pama System, Kree Empire, Greater Magellanic Cloud ",
+    "location": "Kree Empire",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Shanna the She-Devil",
+    "id": 1009578,
+    "city": " Zaire (now Democratic Republic of the Congo) ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Songbird",
+    "id": 1010693,
+    "city": " Shoshoni, Wyoming ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Uatu The Watcher",
+    "id": 1009683,
+    "city": " Watchers' homeworld ",
+    "location": "WatcherWorld",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Vengeance (Michael Badilino)",
+    "id": 1009691,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Callisto",
+    "id": 1009217,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Guardian",
+    "id": 1009330,
+    "city": " London, Ontario, Canada ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hyperion (Earth-712)",
+    "id": 1009361,
+    "city": " Unrevealed "
+  },
+  {
+    "name": "Mojo",
+    "id": 1009448,
+    "city": " Mojoworld, Mojoverse ",
+    "location": "Spineless Ones",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Nightmare",
+    "id": 1009473,
+    "city": " Everinnye dimension ",
+    "location": "Other Dimension",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Reptil",
+    "id": 1011376,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Avalanche",
+    "id": 1009164,
+    "city": " Crete, Greece ",
+    "location": "Greece",
+    "locationType": "Real"
+  },
+  {
+    "name": "Menace",
+    "id": 1011241,
+    "city": " St. Albans, Queens, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Swordsman",
+    "id": 1009641,
+    "city": " Unrevealed ",
+    "location": "Singapore",
+    "locationType": "Real"
+  },
+  {
+    "name": "Thor (Ultimate)",
+    "id": 1011025,
+    "city": " (Thor) Asgard; (Golmen) Norway ",
+    "location": "Asgard",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Thunderbird (John Proudstar)",
+    "id": 1009666,
+    "city": " Camp Verde, Arizona ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Crimson Dynamo",
+    "id": 1009251,
+    "city": " Russia ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Dragon Man",
+    "id": 1009283,
+    "city": " A State University Lab ",
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Jackal",
+    "id": 1011288,
+    "city": " Brooklyn, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shard",
+    "id": 1009579,
+    "city": " New York of Earth-1191 ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Stingray (Walter Newell)",
+    "id": 1009628,
+    "city": " Gloucester, Massachusetts ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Doop",
+    "id": 1009279,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Fantomex",
+    "id": 1009301,
+    "city": " The World, London, England, U.K. ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Klaw",
+    "id": 1009390,
+    "city": " Vlaardingen, Netherlands ",
+    "location": "Netherlands",
+    "locationType": "Real"
+  },
+  {
+    "name": "Leader",
+    "id": 1009398,
+    "city": " Boise, Idaho ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Quicksilver (Ultimate)",
+    "id": 1010963,
+    "city": " Unknown ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Constrictor",
+    "id": 1009245,
+    "city": " Racine, Wisconsin ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Firebird",
+    "id": 1010868,
+    "city": " Buena Vista, New Mexico ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Firelord",
+    "id": 1009305,
+    "city": " Planet Xandar, Tranta system, Andromeda Galaxy ",
+    "location": "Xandar",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Husk",
+    "id": 1009357,
+    "city": " Cumberland County, Kentucky ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Lockjaw",
+    "id": 1009406,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Pepper Potts",
+    "id": 1009494,
+    "city": " New Haven, Connecticut ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shang-Chi",
+    "id": 1009577,
+    "city": " Fortress in Honan, People's Republic of China ",
+    "location": "China",
+    "locationType": "Real"
+  },
+  {
+    "name": "Tombstone",
+    "id": 1009675,
+    "city": " Harlem, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Vindicator",
+    "id": 1009695,
+    "city": " Calgary, Alberta, Canada ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Baron Strucker",
+    "id": 1009169,
+    "city": " Strucker Castle, Bavaria, Germany ",
+    "location": "Germany ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ben Urich",
+    "id": 1010782,
+    "city": null,
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Blastaar",
+    "id": 1009195,
+    "city": " Baluur, in the Negative Zone ",
+    "location": "Baluur",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Corsair",
+    "id": 1009247,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Deathbird",
+    "id": 1009270,
+    "city": " The Aerie, Chandilar, Shi'ar Empire ",
+    "location": "Shi'ar Empire ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Drax",
+    "id": 1010735,
+    "city": " Burbank, California ",
+    "location": "Titan",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Hawkeye (Kate Bishop)",
+    "id": 1010808,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Puma",
+    "id": 1009514,
+    "city": " New Mexico ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Puppet Master",
+    "id": 1009519,
+    "city": " Dragorin, Transia ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sersi",
+    "id": 1010345,
+    "city": " Olympia, Greece ",
+    "location": "Greece",
+    "locationType": "Real"
+  },
+  {
+    "name": "Gateway",
+    "id": 1009315,
+    "city": " Unrevealed location in Australia ",
+    "location": "Australia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hammerhead",
+    "id": 1009334,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Human Torch (Ultimate)",
+    "id": 1011102,
+    "city": " New York, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Millie the Model",
+    "id": 1010894,
+    "city": " Sleepy Gap, Kansas ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shocker (Herman Schultz)",
+    "id": 1009585,
+    "city": " New York, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Squirrel Girl",
+    "id": 1010860,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Stature",
+    "id": 1010828,
+    "city": null,
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Titanium Man (Topolov)",
+    "id": 1009672,
+    "city": " unrevealed ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Bastion",
+    "id": 1009171,
+    "city": " Inapplicable ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Chamber",
+    "id": 1009233,
+    "city": " London, United Kingdom ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Echo",
+    "id": 1010785,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Groot",
+    "id": 1010743,
+    "city": " Unidentified location on Planet X ",
+    "location": "Floral Colossus ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "High Evolutionary",
+    "id": 1011300,
+    "city": " Manchester, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Silver Samurai",
+    "id": 1009591,
+    "city": " Unrevealed location in Japan ",
+    "location": "Japan",
+    "locationType": "Real"
+  },
+  {
+    "name": "Gamora",
+    "id": 1010763,
+    "city": " Planet Zen-Whoberi, Silcan System, Milky Way ",
+    "location": "Zen-Whoberian ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Holocaust (Age of Apocalypse)",
+    "id": 1009349,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Madrox",
+    "id": 1009413,
+    "city": " Los Alamos, New Mexico ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Magik (Illyana Rasputin)",
+    "id": 1009415,
+    "city": " Ust-Ordynski Collective, Lake Baikal, Siberia ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Vertigo (Savage Land Mutate)",
+    "id": 1009694,
+    "city": " Savage Land ",
+    "location": "Mutate",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Ancient One",
+    "id": 1009152,
+    "city": " Tibet ",
+    "location": "Tibet",
+    "locationType": "Real"
+  },
+  {
+    "name": "Grim Reaper",
+    "id": 1009328,
+    "city": " Paterson, New Jersey ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Iron Man (Ultimate)",
+    "id": 1010935,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Venom (Mac Gargan)",
+    "id": 1010788,
+    "city": " Yonkers, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ant-Man (Scott Lang)",
+    "id": 1010801,
+    "city": " Coral Gables, Florida ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Beta-Ray Bill",
+    "id": 1009180,
+    "city": " Planet Korbin, \"Burning Galaxy\" ",
+    "location": "Korbin",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Death",
+    "id": 1009269,
+    "city": " Inapplicable ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Moondragon",
+    "id": 1009451,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Morph",
+    "id": 1009456,
+    "city": " Pittsburgh, Pennsylvania ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Scarlet Spider (Ben Reilly)",
+    "id": 1011197,
+    "city": " unrevealed ",
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Agent Zero",
+    "id": 1009150,
+    "city": " Unrevealed location in former East Germany ",
+    "location": "Germany",
+    "locationType": "Real"
+  },
+  {
+    "name": "Baron Zemo (Heinrich Zemo)",
+    "id": 1009170,
+    "city": " Castle Zemo, Germany ",
+    "location": "Germany",
+    "locationType": "Real"
+  },
+  {
+    "name": "Boomerang",
+    "id": 1010371,
+    "city": " Alice Springs, Northern Territory, Australia ",
+    "location": "Australia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Captain Universe",
+    "id": 1011027,
+    "city": " Not applicable ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Darkstar",
+    "id": 1009266,
+    "city": " Minsk, Byelorussia ",
+    "location": "Belarus",
+    "locationType": "Real"
+  },
+  {
+    "name": "Diablo",
+    "id": 1009273,
+    "city": " Saragossa, Spain ",
+    "location": "Spain",
+    "locationType": "Real"
+  },
+  {
+    "name": "Eddie Brock",
+    "id": 1010787,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Invisible Woman (Ultimate)",
+    "id": 1010934,
+    "city": " New York, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Moonstone",
+    "id": 1010362,
+    "city": " Van Nuys, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mr. Hyde",
+    "id": 1010347,
+    "city": " Trenton, New Jersey ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Omega Red",
+    "id": 1009482,
+    "city": " Unrevealed location in Russia ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Paladin",
+    "id": 1010873,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Radioactive Man",
+    "id": 1009526,
+    "city": " Lanzhou, People's Republic of China ",
+    "location": "China",
+    "locationType": "Real"
+  },
+  {
+    "name": "Silverclaw",
+    "id": 1010864,
+    "city": " The village of Kamekeri, Costa Verde ",
+    "location": "Brazil",
+    "locationType": "Real"
+  },
+  {
+    "name": "Thing (Ultimate)",
+    "id": 1010983,
+    "city": null,
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Clint Barton",
+    "id": 1010809,
+    "city": " Waverly, Iowa ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Human Torch (Jim Hammond)",
+    "id": 1010932,
+    "city": null
+  },
+  {
+    "name": "Mesmero",
+    "id": 1009442,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mr. Fantastic (Ultimate)",
+    "id": 1010950,
+    "city": " Queens, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Nightcrawler (Ultimate)",
+    "id": 1011337,
+    "city": " Germany ",
+    "location": "Germany ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Nocturne",
+    "id": 1009474,
+    "city": " New York City, New York of alternate Earth ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Oracle",
+    "id": 1009484,
+    "city": " Unrevealed planet in the Shi'ar galaxy ",
+    "location": "Shi'ar Empire ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Sebastian Shaw",
+    "id": 1009581,
+    "city": " Pittsburgh, Pennsylvania ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Terrax",
+    "id": 1009651,
+    "city": " City of Lanlak, planet Birj ",
+    "location": "Lanlak",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Ulik",
+    "id": 1010358,
+    "city": " Nornheim (subterranean realm of Asgard) ",
+    "location": "Other Dimension",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Arcade",
+    "id": 1009158,
+    "city": " Beverly Hills, Los Angeles, California (allegedly) ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Exodus",
+    "id": 1009295,
+    "city": " Unrevealed ",
+    "location": "France",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hulkling",
+    "id": 1009355,
+    "city": " Skrull Throneworld ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Living Lightning",
+    "id": 1010854,
+    "city": " East Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mr. Negative",
+    "id": 1011244,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Selene",
+    "id": 1009568,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Count Nefaria",
+    "id": 1009249,
+    "city": " Rome, Italy ",
+    "location": "Italy",
+    "locationType": "Real"
+  },
+  {
+    "name": "Lady Bullseye",
+    "id": 1011327,
+    "city": " Japan ",
+    "location": "Japan",
+    "locationType": "Real"
+  },
+  {
+    "name": "M.O.D.O.K.",
+    "id": 1010726,
+    "city": " Bangor, Maine ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Prowler",
+    "id": 1009507,
+    "city": " Bronx, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Rage",
+    "id": 1010817,
+    "city": " Brooklyn, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sabretooth (Age of Apocalypse)",
+    "id": 1010969,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Toro (Thomas Raymond)",
+    "id": 1011309,
+    "city": null
+  },
+  {
+    "name": "Union Jack (Montgomery Falsworth)",
+    "id": 1010984,
+    "city": " Falsworth Manor, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Betty Brant",
+    "id": 1010325,
+    "city": " Philadelphia, Pennsylvania ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Blue Marvel",
+    "id": 1011339,
+    "city": null,
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hawkeye (Ultimate)",
+    "id": 1011131,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Quasar (Wendell Vaughn)",
+    "id": 1010778,
+    "city": " Fond du Lac, Wisconsin ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sabretooth (Ultimate)",
+    "id": 1010968,
+    "city": " Unknown ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Smasher (Vril Rokk)",
+    "id": 1009603,
+    "city": " Unrevealed planet in the Shi'ar Empire ",
+    "location": "shi'ar",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Spider-Man (2099)",
+    "id": 1014873,
+    "city": " Nueva York, circa late 21st Century ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Alicia Masters",
+    "id": 1009435,
+    "city": " New York City, New York "
+  },
+  {
+    "name": "Beak",
+    "id": 1009174,
+    "city": " Cheverly, Maryland ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Grey Gargoyle",
+    "id": 1011420,
+    "city": " Fontainebleu, France ",
+    "location": "France",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mad Thinker",
+    "id": 1009411,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Man-Wolf",
+    "id": 1010811,
+    "city": " New York, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ozymandias",
+    "id": 1009488,
+    "city": " Egypt ",
+    "location": "Egypt ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sabra",
+    "id": 1009553,
+    "city": " Israel ",
+    "location": "Israel",
+    "locationType": "Real"
+  },
+  {
+    "name": "Strong Guy",
+    "id": 1011051,
+    "city": " Rhinebeck, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Super-Skrull",
+    "id": 1009639,
+    "city": " Tarnax IV (destroyed), Tarnax System, Andromeda Galaxy ",
+    "location": "Skrull Empire",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Synch",
+    "id": 1009643,
+    "city": " St. Louis, Missouri ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Umar",
+    "id": 1009686,
+    "city": " Faltine Dimension ",
+    "location": "Other Dimension",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Black Tarantula",
+    "id": 1010687,
+    "city": " Unrevealed ",
+    "location": "Argentina",
+    "locationType": "Real"
+  },
+  {
+    "name": "Dani Moonstar",
+    "id": 1009453,
+    "city": " Boulder, Colorado ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ghost Rider (Daniel Ketch)",
+    "id": 1010925,
+    "city": null,
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Gorilla Man",
+    "id": 1010731,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Jane Foster",
+    "id": 1010329,
+    "city": " United States ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shadow King",
+    "id": 1009573,
+    "city": " Cairo, Egypt ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spitfire",
+    "id": 1010899,
+    "city": " Maidstone, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Stepford Cuckoos",
+    "id": 1009625,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Titania",
+    "id": 1010669,
+    "city": " Denver, Colorado ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "U-Go Girl",
+    "id": 1009681,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Unus",
+    "id": 1009687,
+    "city": " Milan, Italy ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Darkhawk",
+    "id": 1011020,
+    "city": " New York City ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Doctor Octopus (Ultimate)",
+    "id": 1010921,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hellion",
+    "id": 1010678,
+    "city": " Beverly Hills, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Impossible Man",
+    "id": 1009364,
+    "city": " Poppupoopu, Poppup ",
+    "location": "Poppup",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Mercury",
+    "id": 1010681,
+    "city": " Portland, Oregon ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Nico Minoru",
+    "id": 1010746,
+    "city": " Los Angeles, CA ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Nomad",
+    "id": 1009475,
+    "city": " Clutier, Iowa ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "She-Hulk (Lyra)",
+    "id": 1011392,
+    "city": " presumably Milago, Earth-8009 ",
+    "location": "Unrevealed",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Skaar",
+    "id": 1011223,
+    "city": " Crown City, Sakaar ",
+    "location": "Sakaar",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "The Hood",
+    "id": 1010715,
+    "city": " Brooklyn, New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Thor Girl",
+    "id": 1010820,
+    "city": " Nucleus of Hope, unidentified galaxy ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Trauma",
+    "id": 1010822,
+    "city": " Pittsfield, Massachusetts ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Union Jack (Joseph Chapman)",
+    "id": 1010696,
+    "city": " Manchester, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Vermin (Edward Whelan)",
+    "id": 1010353,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Arclight",
+    "id": 1009160,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Batroc the Leaper",
+    "id": 1009172,
+    "city": " Marseilles, France ",
+    "location": "France",
+    "locationType": "Real"
+  },
+  {
+    "name": "Daimon Hellstrom",
+    "id": 1010719,
+    "city": " Fire Lake, Greentown, Massachusetts ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Dead Girl",
+    "id": 1011087,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Human Robot",
+    "id": 1010722,
+    "city": " (creation) New York City, New York ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Nebula",
+    "id": 1010365,
+    "city": " Planet of Luphom (destroyed) ",
+    "location": " Luphomoid ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Risque",
+    "id": 1009544,
+    "city": " Miami, Florida ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Satana",
+    "id": 1011035,
+    "city": " Fire Lake, Greentown, Massachusetts ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Silver Fox",
+    "id": 1009589,
+    "city": " Unidentified community in the Canadian Rockies ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Skin",
+    "id": 1009598,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spider-Man (Ben Reilly)",
+    "id": 1014858,
+    "city": " unrevealed ",
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Tiger Shark",
+    "id": 1009669,
+    "city": null,
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "3-D Man",
+    "id": 1011334,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Amiko",
+    "id": 1009151,
+    "city": null,
+    "location": "Japan",
+    "locationType": "Real"
+  },
+  {
+    "name": "Blockbuster",
+    "id": 1009200,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Carmella Unuscione",
+    "id": 1009688,
+    "city": " Italy ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Cyber",
+    "id": 1009256,
+    "city": " Unrevealed ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Eternity",
+    "id": 1011061,
+    "city": " Inapplicable ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "M (Monet St. Croix)",
+    "id": 1011068,
+    "city": " Sarajevo, Bosnia ",
+    "location": "Bosnia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ord",
+    "id": 1011202,
+    "city": " Breakworld ",
+    "location": " Breakworld ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Red Ghost",
+    "id": 1009534,
+    "city": " Leningrad, Russia ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Rockslide",
+    "id": 1010692,
+    "city": " Boston, Massachusetts ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Slapstick",
+    "id": 1011057,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Solo (James Bourne)",
+    "id": 1010855,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Starfox",
+    "id": 1011084,
+    "city": " Titan, moon of Saturn ",
+    "location": "Titan",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Vargas",
+    "id": 1009690,
+    "city": " Presumably, Spain ",
+    "location": "Spain",
+    "locationType": "Real"
+  },
+  {
+    "name": "Agent X (Nijo)",
+    "id": 1011031,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ben Parker",
+    "id": 1009489,
+    "city": " Brooklyn, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Captain Stacy",
+    "id": 1009225,
+    "city": " Unrevealed, presumably New York City ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Garrison Kane",
+    "id": 1009383,
+    "city": " Unrevealed ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Gideon",
+    "id": 1011055,
+    "city": " Unrevealed, presumably a location in 16th Century Spain ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Molly Hayes",
+    "id": 1010691,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Old Lace",
+    "id": 1010882,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Rogue (Ultimate)",
+    "id": 1010966,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Scorpion (Carmilla Black)",
+    "id": 1010790,
+    "city": " Lowtown, Madripoor ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spectrum",
+    "id": 1010705,
+    "city": " New Orleans, Louisiana ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "The Stranger",
+    "id": 1009660,
+    "city": " Unrevealed ",
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Venus Dee Milo",
+    "id": 1009693,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Angel (Warren Worthington III)",
+    "id": 1009153,
+    "city": " Centerport, Long Island, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Baron Zemo (Helmut Zemo)",
+    "id": 1010906,
+    "city": " Leipzig, Germany ",
+    "location": "Germany",
+    "locationType": "Real"
+  },
+  {
+    "name": "Bengal",
+    "id": 1010829,
+    "city": " Unidentified village near Buon Ma Thout (aka Bang Me Thout), Vietnam ",
+    "location": "Vietnam",
+    "locationType": "Real"
+  },
+  {
+    "name": "Bushwacker",
+    "id": 1009213,
+    "city": " Unrevealed "
+  },
+  {
+    "name": "Cardiac",
+    "id": 1011052,
+    "city": " Roslyn, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Cloud 9",
+    "id": 1010823,
+    "city": " Evanston, Illinois ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Elektra (Ultimate)",
+    "id": 1010923,
+    "city": " unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Fat Cobra",
+    "id": 1011233,
+    "city": " Peng Lai Island ",
+    "location": "China",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Goliath (Bill Foster)",
+    "id": 1010927,
+    "city": " Watts, Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Layla Miller",
+    "id": 1011100,
+    "city": " Hell's Kitchen, NYC ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Lily Hollister",
+    "id": 1011257,
+    "city": " St. Albans, Queens, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Magus (Adam Warlock)",
+    "id": 1010904,
+    "city": " Unidentified interdimensional realm; (reborn) interdimensional crossroads ",
+    "location": "Unrevealed",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Mantis",
+    "id": 1011026,
+    "city": " Unknown village in Vietnam ",
+    "location": "Vietnam",
+    "locationType": "Real"
+  },
+  {
+    "name": "Prodigy",
+    "id": 1011030,
+    "city": " Chicago, Illinois ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Silver Samurai (Age of Apocalypse)",
+    "id": 1010976,
+    "city": " Tokyo, Japan ",
+    "location": "Japan",
+    "locationType": "Real"
+  },
+  {
+    "name": "Talisman (Elizabeth Twoyoungmen)",
+    "id": 1009646,
+    "city": " Calgary, Alberta, Canada ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Venus (Siren)",
+    "id": 1011106,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Abyss",
+    "id": 1009149,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Ben Reilly",
+    "id": 1011346,
+    "city": " unrevealed ",
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Black Widow (Ultimate)",
+    "id": 1010911,
+    "city": " St. Petersburg, Russia ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Dust",
+    "id": 1009285,
+    "city": " Unrevealed location in western Afghanistan ",
+    "location": "Afghanistan",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ezekiel",
+    "id": 1011199,
+    "city": " Citizen of the U.S.A. with no criminal record ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Green Goblin (Harry Osborn)",
+    "id": 1010928,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hussar",
+    "id": 1009358,
+    "city": " Unrevealed planet in the Shi'ar Empire ",
+    "location": "Shi'ar Empire ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Jimmy Woo",
+    "id": 1011105,
+    "city": " Cheverly, Maryland ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Magneto (House of M)",
+    "id": 1010945,
+    "city": " Somewhere in Europe ",
+    "location": "Unrevealed",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Manta",
+    "id": 1009423,
+    "city": " Unrevealed planet in the Shi'ar Empire ",
+    "location": "shi'ar",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Multiple Man",
+    "id": 1011056,
+    "city": " Los Alamos, New Mexico ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Psycho-Man",
+    "id": 1009511,
+    "city": " Traan ",
+    "location": "Traan",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Quasimodo",
+    "id": 1010334,
+    "city": " Unrevealed ",
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Sage",
+    "id": 1009555,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Scarecrow (Ebenezer Laughton)",
+    "id": 1010861,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Screwball",
+    "id": 1011242,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Speed Demon",
+    "id": 1011032,
+    "city": " New York, New York "
+  },
+  {
+    "name": "Spider-Woman (Mattie Franklin)",
+    "id": 1010794,
+    "city": " Rochester, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Starbolt",
+    "id": 1009621,
+    "city": " Unrevealed planet in the Shi'ar Empire ",
+    "location": "shi'ar",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Thunderball",
+    "id": 1010885,
+    "city": " Buffalo, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Vance Astro",
+    "id": 1011342,
+    "city": " Saugerties, New York "
+  },
+  {
+    "name": "Alex Wilder",
+    "id": 1010755,
+    "city": " Los Angeles, CA ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Arnim Zola",
+    "id": 1009740,
+    "city": " Weisshorn Mountain, Switzerland ",
+    "location": "Switzerland",
+    "locationType": "Real"
+  },
+  {
+    "name": "Blizzard",
+    "id": 1009198,
+    "city": " Newark, Delaware ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Chase Stein",
+    "id": 1010754,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Controller",
+    "id": 1010346,
+    "city": " Kittery Point, Maine ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Cypher",
+    "id": 1011385,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Earthquake",
+    "id": 1009286,
+    "city": " Unrevealed planet in the Shi'ar Empire ",
+    "location": "shi'ar",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Giant-Man (Ultimate)",
+    "id": 1010926,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Iron Lad",
+    "id": 1010704,
+    "city": " Earth-6311 in the 31st century ",
+    "location": "Other Dimension",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Karma",
+    "id": 1011386,
+    "city": " Central highlands of Vietnam ",
+    "location": "Vietnam",
+    "locationType": "Real"
+  },
+  {
+    "name": "Moira MacTaggert",
+    "id": 1009410,
+    "city": " Kinross Estate, Scotland ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shriek",
+    "id": 1009587,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spider-Ham (Larval Earth)",
+    "id": 1011347,
+    "city": " New York City Earth-8311 ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Starhawk (Stakar Ogord)",
+    "id": 1011341,
+    "city": " Sisters of Mercy nunnery on the planet Vesper ",
+    "location": "Planet Arctus IV",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Super-Adaptoid",
+    "id": 1011022,
+    "city": " Inapplicable ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Tarantula (Luis Alvarez)",
+    "id": 1010713,
+    "city": null,
+    "location": "Delvadian",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "The Anarchist",
+    "id": 1009653,
+    "city": " Unknown "
+  },
+  {
+    "name": "Toxin",
+    "id": 1009676,
+    "city": " New York City ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Vanisher (Telford Porter)",
+    "id": 1011365,
+    "city": " Boston, Massachusetts ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Vulcan (Gabriel Summers)",
+    "id": 1011011,
+    "city": " Unrevealed location in the Shi'ar Empire (presumed) ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Arachne",
+    "id": 1010773,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Betty Ross",
+    "id": 1009548,
+    "city": " Unrevealed location in California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Bob, Agent of Hydra",
+    "id": 1011119,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Bride of Nine Spiders (Immortal Weapons)",
+    "id": 1011236,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Bucky",
+    "id": 1009211,
+    "city": " Shelbyville, Indiana ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Bulldozer",
+    "id": 1010887,
+    "city": " Topeka, Kansas ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Cerebro",
+    "id": 1009231,
+    "city": " Xavier’s School for Gifted Youngsters, Salem Center, New York ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Elixir",
+    "id": 1011082,
+    "city": " Flushing, Queens, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Gertrude Yorkes",
+    "id": 1010749,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Humbug",
+    "id": 1010675,
+    "city": " Lodi, New Jersey ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Karolina Dean ",
+    "id": 1010752,
+    "city": " Hollywood, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Nuke",
+    "id": 1010707,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Pete Wisdom",
+    "id": 1010779,
+    "city": " England, U.K. ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Piledriver",
+    "id": 1010886,
+    "city": " Brooklyn, New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Pixie",
+    "id": 1011179,
+    "city": " Unrevealed ",
+    "location": "Olympia",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Proteus (Ultimate)",
+    "id": 1010959,
+    "city": " Scotland ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shadowcat (Age of Apocalypse)",
+    "id": 1010975,
+    "city": " Deerfield, Illinois ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Storm (Age of Apocalypse)",
+    "id": 1010979,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Surge",
+    "id": 1010695,
+    "city": " Tokyo, Japan ",
+    "location": "Japan",
+    "locationType": "Real"
+  },
+  {
+    "name": "Tana Nile",
+    "id": 1011149,
+    "city": " Rigel-3 ",
+    "location": "Rigellian",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Terror",
+    "id": 1011034,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Valeria Richards",
+    "id": 1009525,
+    "city": " (Marvel Girl) unknown; (infant Valeria) Baxter Building, New York City, NY ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Venom (Ultimate)",
+    "id": 1011128,
+    "city": " New York, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Victor Mancha",
+    "id": 1011066,
+    "city": " Los Angeles, California ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "American Eagle (Jason Strongbow)",
+    "id": 1011361,
+    "city": " Kaibito, Arizona ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Armor (Hisako Ichiki)",
+    "id": 1011298,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Big Bertha",
+    "id": 1010843,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Bloodaxe",
+    "id": 1011073,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Bloodscream",
+    "id": 1009203,
+    "city": " Unrevealed "
+  },
+  {
+    "name": "Cosmo (dog)",
+    "id": 1011353,
+    "city": " Possibly Russia ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Dog Brother #1",
+    "id": 1011235,
+    "city": " Possibly Hong Kong ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Doorman",
+    "id": 1010879,
+    "city": " Unrevealed "
+  },
+  {
+    "name": "Elsa Bloodstone",
+    "id": 1010701,
+    "city": " Boston, Massachusetts ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Enchantress (Amora)",
+    "id": 1010671,
+    "city": " Asgard ",
+    "location": "Asgard",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Fixer (Paul Norbert Ebersol)",
+    "id": 1010880,
+    "city": " Dayton, Ohio ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Flatman",
+    "id": 1010863,
+    "city": " unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hydro-Man",
+    "id": 1009360,
+    "city": " Bronx, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Joystick",
+    "id": 1011033,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Korvac",
+    "id": 1011312,
+    "city": " The Blue Area of Earth's moon in 2977 AD in the alternate future of Earth-691 ",
+    "location": "Luna",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Living Tribunal",
+    "id": 1011059,
+    "city": " Universe ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Loa",
+    "id": 1011414,
+    "city": " Unrevealed location in Hawaii ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Magneto (Age of Apocalypse)",
+    "id": 1010944,
+    "city": " Someplace in Europe ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Molten Man",
+    "id": 1011370,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mr. Immortal",
+    "id": 1010840,
+    "city": " Sheboygan, Wisconsin ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Purple Man",
+    "id": 1009520,
+    "city": " Rijeka, Yugoslavia ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ravenous",
+    "id": 1011154,
+    "city": " Undisclosed location within the Negative Zone ",
+    "location": "Other Dimension",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Rogue (Age of Apocalypse)",
+    "id": 1010967,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shape",
+    "id": 1010712,
+    "city": " Simark, Lowengard, United States of America of Earth-712 "
+  },
+  {
+    "name": "Skreet",
+    "id": 1011157,
+    "city": " Pyx ",
+    "location": "Other Dimension",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Sunset Bain",
+    "id": 1009637,
+    "city": " San Diego, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Air-Walker (Gabriel Lan)",
+    "id": 1011136,
+    "city": " Planet Xandar in the Tranta system, Andromeda Galaxy ",
+    "location": "Xandar",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Angel (Thomas Halloway)",
+    "id": 1011396,
+    "city": " United States of America "
+  },
+  {
+    "name": "Angel (Ultimate)",
+    "id": 1011338,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Black Cat (Ultimate)",
+    "id": 1010910,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Blackheart",
+    "id": 1009190,
+    "city": " Christ’s Crown, New York ",
+    "location": "Other Dimension",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Cecilia Reyes",
+    "id": 1009536,
+    "city": " The Bronx, New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Dinah Soar",
+    "id": 1011040,
+    "city": " Unrevealed (possibly Savage Land) ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ego",
+    "id": 1011060,
+    "city": " The Black Galaxy ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Electro (Ultimate)",
+    "id": 1010922,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Korg",
+    "id": 1011080,
+    "city": " Unrevealed ",
+    "location": "Kronan Empire",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Lifeguard",
+    "id": 1009401,
+    "city": " Surfer's Paradise, Sydney, Australia ",
+    "location": "Australia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Lila Cheney",
+    "id": 1009236,
+    "city": " Unrevealed ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Madelyne Pryor",
+    "id": 1009509,
+    "city": " Unrevealed secret laboratory of Mister Sinister ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Owl",
+    "id": 1011028,
+    "city": null,
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shadowcat",
+    "id": 1009574,
+    "city": " Deerfield, Illinois ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spot",
+    "id": 1009616,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Stranger",
+    "id": 1011062,
+    "city": " Unrevealed ",
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Supreme Intelligence",
+    "id": 1011160,
+    "city": " Planet Kree-Lar ",
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Vin Gonzales",
+    "id": 1011261,
+    "city": " Hunts Point, Bronx, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Amphibian (Earth-712)",
+    "id": 1010673,
+    "city": " Unrevealed "
+  },
+  {
+    "name": "Beyonder",
+    "id": 1011138,
+    "city": " Created in the Beyond ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Bloke",
+    "id": 1009202,
+    "city": " San Francisco, California, U.S.A. ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Bug",
+    "id": 1011038,
+    "city": " Planet Kaliklak, Microverse ",
+    "location": "Kaliklak",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Captain America (House of M)",
+    "id": 1010914,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Captain Marvel (Monica Rambeau)",
+    "id": 1011095,
+    "city": " New Orleans, Louisiana ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Cassandra Nova",
+    "id": 1009478,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Crusher Hogan",
+    "id": 1009254,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Dark Beast",
+    "id": 1010907,
+    "city": " Dunfee, Illinois, Earth-295 ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Deathcry",
+    "id": 1011037,
+    "city": " Shi'ar Empire ",
+    "location": "shi'ar",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Debrii",
+    "id": 1010717,
+    "city": " New York City ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Demogoblin",
+    "id": 1011071,
+    "city": " Presumable \"Otherplace\", presumed to be Belasco's Limbo ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Genesis",
+    "id": 1009317,
+    "city": " Unrevealed location on Earth-4935 ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Glorian",
+    "id": 1011144,
+    "city": " Rochester, New York "
+  },
+  {
+    "name": "In-Betweener",
+    "id": 1011063,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Inertia",
+    "id": 1011064,
+    "city": " Unrevealed "
+  },
+  {
+    "name": "Iron Fist (Wu Ao-Shi)",
+    "id": 1011412,
+    "city": " K'un-Lun ",
+    "location": "K'un-Lun",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Korath",
+    "id": 1011147,
+    "city": " Unknown ",
+    "location": "Kreelar",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Lyja",
+    "id": 1010896,
+    "city": " Unrevealed ",
+    "location": "Skrull Homeworld",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Maximus",
+    "id": 1011305,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "Microbe",
+    "id": 1010690,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mikhail Rasputin",
+    "id": 1009530,
+    "city": " Ust-Ordynski Collective, near Lake Baikal, Siberia, Russia ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Nitro",
+    "id": 1010797,
+    "city": " Scranton, Pennsylvania ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Paper Doll",
+    "id": 1011321,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Praxagora",
+    "id": 1011151,
+    "city": " Ataraxia, Helicon Cluster, Negative Zone ",
+    "location": "Ataraxian",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Preak",
+    "id": 1011152,
+    "city": " Baradar Nebula in the Negative Zone ",
+    "location": "Pralagon System",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Pretty Boy",
+    "id": 1009502,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Prism",
+    "id": 1009503,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Punisher (2099)",
+    "id": 1009517,
+    "city": " New York "
+  },
+  {
+    "name": "Sugar Man",
+    "id": 1011212,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sunfire (Age of Apocalypse)",
+    "id": 1010981,
+    "city": " Agrashima, Japan ",
+    "location": "Japan",
+    "locationType": "Real"
+  },
+  {
+    "name": "Thundra",
+    "id": 1011304,
+    "city": " Greater Milago, Midwestern Republic, United Sisterhood Republic, Earth-715 ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Turbo",
+    "id": 1011047,
+    "city": " Hartford, Connecticut ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Union Jack (Brian Falsworth)",
+    "id": 1010985,
+    "city": " Falsworth Manor, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Vanisher (Ultimate)",
+    "id": 1009689,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Azazel (Mutant)",
+    "id": 1011766,
+    "city": " Isla des Demonas, Caribbean Sea ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Battering Ram",
+    "id": 1009173,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Big Wheel",
+    "id": 1009181,
+    "city": " Sunnyside, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Black Tom",
+    "id": 1009188,
+    "city": " Dublin, Ireland ",
+    "location": "Ireland",
+    "locationType": "Real"
+  },
+  {
+    "name": "Blacklash",
+    "id": 1010881,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Blazing Skull",
+    "id": 1010830,
+    "city": " Cleveland, Ohio ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Brother Voodoo",
+    "id": 1011090,
+    "city": " Port-au-Prince, Haiti ",
+    "location": "Haiti",
+    "locationType": "Real"
+  },
+  {
+    "name": "Bruce Banner",
+    "id": 1009167,
+    "city": " Dayton, Ohio ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Cammi",
+    "id": 1011139,
+    "city": " Coot’s Bluff, Alaska ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Centennial",
+    "id": 1011039,
+    "city": " Unrevealed ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Cerise",
+    "id": 1011141,
+    "city": " The planet Shaskofrugnon, Shi'ar Empire ",
+    "location": "Shi'ar Empire ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Chimera",
+    "id": 1009237,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Emplate",
+    "id": 1009292,
+    "city": " Algiers, Algeria ",
+    "location": "Algeria",
+    "locationType": "Real"
+  },
+  {
+    "name": "Enchantress (Sylvie Lushton)",
+    "id": 1011432,
+    "city": " Broxton, Oklahoma ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Glenn Talbot",
+    "id": 1009645,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Grandmaster",
+    "id": 1011076,
+    "city": " Unrevealed planet in now dead galaxy ",
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Green Goblin (Ultimate)",
+    "id": 1010929,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hate-Monger (Adolf Hitler)",
+    "id": 1010816,
+    "city": " Germany ",
+    "location": "Germany ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hypno-Hustler",
+    "id": 1011246,
+    "city": " Corona Park, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "John Jameson",
+    "id": 1010812,
+    "city": " New York, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Josiah X",
+    "id": 1010937,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "La Nuit",
+    "id": 1009392,
+    "city": " Unknown ",
+    "location": "France",
+    "locationType": "Real"
+  },
+  {
+    "name": "Leech",
+    "id": 1011092,
+    "city": " U.S.A. ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Lightspeed",
+    "id": 1010450,
+    "city": " Richmond, Virginia ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Lizard (Ultimate)",
+    "id": 1010939,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Magik (Amanda Sefton)",
+    "id": 1010942,
+    "city": " Unrevealed location in former West Germany ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mary Jane Watson (House of M)",
+    "id": 1010993,
+    "city": " New York City ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Meggan",
+    "id": 1011399,
+    "city": " Near Fenborough Station, London, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Micromax",
+    "id": 1010871,
+    "city": " Southen-on-Sea, Essex, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Morlun",
+    "id": 1011088,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Mysterio (Francis Klum)",
+    "id": 1010952,
+    "city": " Red Bank, New Jersey ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Professor X (Ultimate)",
+    "id": 1010958,
+    "city": " U.S.A. ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Puck (Zuzha Yu)",
+    "id": 1010962,
+    "city": " Montreal, Quebec, Canada ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Random",
+    "id": 1010767,
+    "city": " Albany, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Red Shift",
+    "id": 1011155,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Sharon Ventura",
+    "id": 1010895,
+    "city": " Pullman, Washington ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shinobi Shaw",
+    "id": 1009582,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Silhouette",
+    "id": 1010848,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Slipstream",
+    "id": 1009602,
+    "city": " Sydney, Australia ",
+    "location": "Australia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Speed",
+    "id": 1010833,
+    "city": " New York, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Swordsman (Jaques Duquesne)",
+    "id": 1010982,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Tenebrous",
+    "id": 1011162,
+    "city": " The Living Universe ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Thena",
+    "id": 1011181,
+    "city": " Olympia, Greece ",
+    "location": "Olympia",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Anole",
+    "id": 1011301,
+    "city": " Unrevealed location in U.S.A. ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Baroness S'Bak",
+    "id": 1011137,
+    "city": " Unrevealed ",
+    "location": "Skrull Empire",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Beef",
+    "id": 1009178,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Blue Shield",
+    "id": 1011264,
+    "city": " Morris Park, New York "
+  },
+  {
+    "name": "Cargill",
+    "id": 1009226,
+    "city": null,
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Catseye",
+    "id": 1009230,
+    "city": " Believed to be Boston, Massachusetts ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Chores MacGillicudy",
+    "id": 1011411,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Cobalt Man",
+    "id": 1011286,
+    "city": " Unknown "
+  },
+  {
+    "name": "Contessa (Vera Vidal)",
+    "id": 1011407,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Cottonmouth",
+    "id": 1011362,
+    "city": " Mobile, Alabama "
+  },
+  {
+    "name": "Danny Rand",
+    "id": 1010776,
+    "city": " Unrevealed ",
+    "location": "China",
+    "locationType": "Dual Citizen"
+  },
+  {
+    "name": "Devos",
+    "id": 1011142,
+    "city": " Unidentified planet ",
+    "location": "Other Dimension",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Donald Blake",
+    "id": 1010330,
+    "city": " A cave in Norway ",
+    "location": "Asgard",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Forgotten One",
+    "id": 1011177,
+    "city": " Unrevealed ",
+    "location": "Olympia",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Henry Peter Gyrich",
+    "id": 1011371,
+    "city": " Pittsburgh, Pennsylvania "
+  },
+  {
+    "name": "Hobgoblin (Jason Macendale)",
+    "id": 1010930,
+    "city": " Boston, Massachusetts ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "James Buchanan Barnes",
+    "id": 1010775,
+    "city": " Shelbyville, Indiana ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Jamie Braddock",
+    "id": 1011343,
+    "city": " U.K. ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Junta",
+    "id": 1011314,
+    "city": " Queens, New York City, New York ",
+    "location": "United States",
+    "locationType": "Dual Citizen"
+  },
+  {
+    "name": "Ken Ellis",
+    "id": 1011319,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Lieutenant Marcus Stone",
+    "id": 1010977,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Lord Hawal",
+    "id": 1011145,
+    "city": " The planet of Arthos in the Negative Zone. ",
+    "location": "Arthos",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Lucky Pierre",
+    "id": 1011405,
+    "city": " Presumably France ",
+    "location": "France",
+    "locationType": "Real"
+  },
+  {
+    "name": "Madame Web (Julia Carpenter)",
+    "id": 1010796,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Maelstrom",
+    "id": 1011053,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Mandrill",
+    "id": 1011243,
+    "city": " Los Alamos, New Mexico ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mariko Yashida",
+    "id": 1009735,
+    "city": " Agarashima, Japan ",
+    "location": "Japan",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mentallo",
+    "id": 1011099,
+    "city": " Watford City, North Dakota ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Molecule Man",
+    "id": 1011019,
+    "city": " Brooklyn, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mongoose",
+    "id": 1010876,
+    "city": " Unrevealed ",
+    "location": "Wundagore",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Moon Knight (House of M)",
+    "id": 1010949,
+    "city": " Chicago, Illinois ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mystique (House of M)",
+    "id": 1010954,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Rhodey",
+    "id": 1009702,
+    "city": " Philadelphia, Pennsylvania ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Rocket Racer",
+    "id": 1010769,
+    "city": " Brooklyn, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sabretooth (House of M)",
+    "id": 1010970,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Salo",
+    "id": 1011156,
+    "city": " Arthros, Sector 17A, Negative Zone ",
+    "location": " Arthros ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Scalphunter",
+    "id": 1011048,
+    "city": " unrevealed ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Scrambler",
+    "id": 1011230,
+    "city": " Unrevealed location in Korea ",
+    "location": "Korea",
+    "locationType": "Real"
+  },
+  {
+    "name": "Senator Kelly",
+    "id": 1009569,
+    "city": " Boston, Massachusetts ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shadu the Shady",
+    "id": 1011406,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Shalla-bal",
+    "id": 1009575,
+    "city": " Planet of Zenn-La, Deneb Star System, Milky Way Galaxy ",
+    "location": "Zenn-Lavian",
+    "locationType": "Fictional"
+  },
+  {
+    "name": "She-Hulk (Ultimate)",
+    "id": 1011393,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shiver Man",
+    "id": 1011394,
+    "city": null,
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Slayback",
+    "id": 1011070,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Spider-Man (Marvel Zombies)",
+    "id": 1011114,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Stardust",
+    "id": 1010764,
+    "city": " Unspecified location in the primordial universe ",
+    "location": "Other Dimension",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Stephen Strange",
+    "id": 1010901,
+    "city": " Philadelphia, Pennsylvania ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Swarm",
+    "id": 1011075,
+    "city": " Unrevealed location in Germany ",
+    "location": "Germany",
+    "locationType": "Real"
+  },
+  {
+    "name": "Talos",
+    "id": 1011161,
+    "city": " Andromeda Galaxy ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Texas Twister",
+    "id": 1010819,
+    "city": " Amarillo, Texas ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Unicorn",
+    "id": 1010862,
+    "city": " Bratislava, Slovakia ",
+    "location": "Slovakia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Abyss (Age of Apocalypse)",
+    "id": 1010903,
+    "city": " Unknown ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Adam Destine",
+    "id": 1011266,
+    "city": " Ravenscroft, England of the 1100’s ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Aegis (Trey Rollins)",
+    "id": 1010846,
+    "city": " Brooklyn, New York "
+  },
+  {
+    "name": "Aginar",
+    "id": 1011175,
+    "city": " Polaria, Siberia, U.S.S.R. ",
+    "location": "Polaria",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Ajak",
+    "id": 1011176,
+    "city": " Polaria (now known as Siberia), U.S.S.R. ",
+    "location": "Polaria",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Ajaxis",
+    "id": 1010870,
+    "city": " Unrevealed ",
+    "location": "Subterranean",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Albion",
+    "id": 1011120,
+    "city": " Adlestrop, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Amun",
+    "id": 1010905,
+    "city": " Egypt ",
+    "location": "Egypt ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Anthem",
+    "id": 1011208,
+    "city": null,
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Aqueduct",
+    "id": 1010866,
+    "city": " Chicago, Illinois ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Armadillo",
+    "id": 1011012,
+    "city": " San Antonio, Texas ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Arsenic",
+    "id": 1010748,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Asgardian",
+    "id": 1010718,
+    "city": " Asgard ",
+    "location": "Asgard",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Asylum",
+    "id": 1010835,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Beast (Earth-311)",
+    "id": 1010909,
+    "city": " England "
+  },
+  {
+    "name": "Blindfold",
+    "id": 1011291,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Butterfly",
+    "id": 1011101,
+    "city": " Hell's Kitchen, NYC ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Calamity",
+    "id": 1011209,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Callisto (Age of Apocalypse)",
+    "id": 1010912,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Cap'n Oz",
+    "id": 1011276,
+    "city": " Ravenscroft, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Captain Britain (Ultimate)",
+    "id": 1010915,
+    "city": " U.K. ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Captain Marvel (Genis-Vell)",
+    "id": 1011096,
+    "city": " Titan ",
+    "location": "Titan",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Captain Marvel (Phyla-Vell)",
+    "id": 1011097,
+    "city": " Titan (14th Moon of Saturn) ",
+    "location": "Titan",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Changeling",
+    "id": 1011015,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Crimson Crusader",
+    "id": 1011272,
+    "city": " Ravenscroft, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Cuckoo",
+    "id": 1011268,
+    "city": " Ravenscroft, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Darwin",
+    "id": 1011016,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Dazzler (Ultimate)",
+    "id": 1010920,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Epoch",
+    "id": 1011065,
+    "city": null,
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Expediter",
+    "id": 1009296,
+    "city": " Presumably Romania ",
+    "location": "Romania",
+    "locationType": "Real"
+  },
+  {
+    "name": "Fabian Cortez",
+    "id": 1009248,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Fallen One",
+    "id": 1011143,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Franklin Storm",
+    "id": 1010980,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Gargoyle (Yuri Topolov)",
+    "id": 1012513,
+    "city": " Russia ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Geiger",
+    "id": 1011248,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Genis-Vell",
+    "id": 1011098,
+    "city": " Titan ",
+    "location": "Titan",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "H.E.R.B.I.E.",
+    "id": 1009332,
+    "city": " Xandarian Homeworld ",
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Hannibal King",
+    "id": 1011091,
+    "city": " Milwaukee, Wisconsin ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Happy Hogan",
+    "id": 1009348,
+    "city": " Brooklyn, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Harrier",
+    "id": 1011069,
+    "city": " Birmingham, Alabama ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hex",
+    "id": 1011274,
+    "city": " Ravenscroft, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hindsight Lad",
+    "id": 1010839,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hobgoblin (Robin Borne)",
+    "id": 1010931,
+    "city": " New York City, New York of Earth-9500 ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Hulk (Marvel Zombies)",
+    "id": 1011118,
+    "city": " Los Alamos, New Mexico ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ikaris",
+    "id": 1011077,
+    "city": " Polaria, Siberia, U.S.S.R. ",
+    "location": "Olympia",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Imp",
+    "id": 1011273,
+    "city": " Ravenscroft, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Infant Terrible",
+    "id": 1011146,
+    "city": " Unrevealed ",
+    "location": "Unrevealed",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Iron Monger",
+    "id": 1009371,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Ironclad",
+    "id": 1010844,
+    "city": " Unrevealed "
+  },
+  {
+    "name": "Jack Flag",
+    "id": 1010736,
+    "city": " Sandhaven, Arizona ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "James Howlett",
+    "id": 1010777,
+    "city": " Alberta, Canada ",
+    "location": "Canada",
+    "locationType": "Dual Citizen"
+  },
+  {
+    "name": "Jazinda",
+    "id": 1011344,
+    "city": " Tarnax VI, Andromeda galaxy ",
+    "location": "Skrull Empire",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "John Wraith",
+    "id": 1009721,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Johnny Blaze",
+    "id": 1009196,
+    "city": " Waukegan, Illinois ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Joshua Kane",
+    "id": 1010938,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Jubilee (Age of Apocalypse)",
+    "id": 1010936,
+    "city": " U.S.A. ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Justin Hammer",
+    "id": 1011310,
+    "city": " Surrey, England ",
+    "location": "Monaco",
+    "locationType": "Real"
+  },
+  {
+    "name": "Kate Bishop",
+    "id": 1010810,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Kronos",
+    "id": 1011178,
+    "city": " City of Titanos, Northern Asia (destroyed) ",
+    "location": " Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Kylun",
+    "id": 1011058,
+    "city": " Edinburgh, Scotland, U.K. ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Lady Mastermind",
+    "id": 1011014,
+    "city": " unrevealed ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Lionheart",
+    "id": 1010337,
+    "city": " England, U.K. ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Longshot (Ultimate)",
+    "id": 1010940,
+    "city": " Presumably Genosha ",
+    "location": "Genoshan",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Lucy in the Sky",
+    "id": 1010751,
+    "city": " Hollywood, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mac Gargan",
+    "id": 1009314,
+    "city": " Yonkers, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Malcolm Colcord",
+    "id": 1009242,
+    "city": " Unrevealed ",
+    "location": "Canada ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mathemanic",
+    "id": 1010877,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Matsu'o Tsurayaba",
+    "id": 1009677,
+    "city": " Unrevealed location in Japan ",
+    "location": "Japan",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mattie Franklin",
+    "id": 1010793,
+    "city": " Rochester, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Maverick (Chris Bradley)",
+    "id": 1010947,
+    "city": " Duchess County, New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mindworm",
+    "id": 1011204,
+    "city": " New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Miracleman",
+    "id": 1013727,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mister Sinister (House of M)",
+    "id": 1010948,
+    "city": " London, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Moira MacTaggert (Ultimate)",
+    "id": 1010941,
+    "city": " Scotland ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mordo",
+    "id": 1010902,
+    "city": " Varf Mandra, Transylvania ",
+    "location": "Romania",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mysterio (Daniel Berkhart)",
+    "id": 1010951,
+    "city": " unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Mystique (Age of Apocalypse)",
+    "id": 1010953,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Nekra",
+    "id": 1011422,
+    "city": " Los Alamos, New Mexico ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Norrin Radd",
+    "id": 1010063,
+    "city": " Planet Zenn-La, Deneb System, Milky Way Galaxy ",
+    "location": "Zenn-La ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Nova (Frankie Raye)",
+    "id": 1010956,
+    "city": " New York, New York "
+  },
+  {
+    "name": "Omega Sentinel",
+    "id": 1011329,
+    "city": " Calcutta, India ",
+    "location": "India",
+    "locationType": "Real"
+  },
+  {
+    "name": "Orphan-Maker",
+    "id": 1010957,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Paibok",
+    "id": 1011150,
+    "city": " Planet Tarnax IV, Tarnax System, Andromeda Galaxy ",
+    "location": "Skrull Empire",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Princess Powerful",
+    "id": 1010750,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Proteus (House of M)",
+    "id": 1010960,
+    "city": " Unknown ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Puff Adder",
+    "id": 1010865,
+    "city": " Atlanta, Georgia ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Quentin Quire",
+    "id": 1009387,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Red Skull (Albert Malik)",
+    "id": 1010965,
+    "city": " Leningrad (now St. Petersburg), Russia ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Robert Baldwin ",
+    "id": 1010792,
+    "city": " Springdale, Connecticut ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Romulus",
+    "id": 1011398,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Russian",
+    "id": 1009551,
+    "city": " Smolensk, Russia. ",
+    "location": "Russia",
+    "locationType": "Real"
+  },
+  {
+    "name": "Scarlet Witch (Age of Apocalypse)",
+    "id": 1010972,
+    "city": " Wundagore, Transia, Europe ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Scream (Donna Diego)",
+    "id": 1009566,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shadow King (Age of Apocalypse)",
+    "id": 1010973,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Shadowcat (Ultimate)",
+    "id": 1010974,
+    "city": " U.S.A. ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Shockwave",
+    "id": 1010858,
+    "city": " Unrevealed ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "Siren (Earth-93060)",
+    "id": 1010834,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sister Grimm",
+    "id": 1010745,
+    "city": " Los Angeles, CA ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sleepwalker",
+    "id": 1010761,
+    "city": " Dimension known as the Mindscape ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Slyde",
+    "id": 1010874,
+    "city": null,
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sphinx (Anath-Na Mut)",
+    "id": 1011366,
+    "city": " Egypt ",
+    "location": "Egypt ",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spider-Man (House of M)",
+    "id": 1012200,
+    "city": " New York City, New York ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Spirit",
+    "id": 1011158,
+    "city": " Extraterrestrial (from the planet Luphom, destroyed) ",
+    "location": " Luphomoid ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Stellaris",
+    "id": 1011159,
+    "city": " Unrevealed ",
+    "location": "Unrevealed",
+    "locationType": "NA"
+  },
+  {
+    "name": "Stilt-Man (Wibur Day)",
+    "id": 1009627,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Supernaut",
+    "id": 1011232,
+    "city": " Unknown ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Sway",
+    "id": 1011017,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Talkback (Chase Stein)",
+    "id": 1010753,
+    "city": " Los Angeles, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Talon (Fraternity of Raptors)",
+    "id": 1011395,
+    "city": " Unrevealed ",
+    "location": "Shi'ar Empire ",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "The Executioner",
+    "id": 1010728,
+    "city": " Jotunheim (Asgard) ",
+    "location": "Asgard",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "The Fury",
+    "id": 1011219,
+    "city": " U.K. (Earth-238) ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  },
+  {
+    "name": "The Shiver Man",
+    "id": 1009658,
+    "city": null,
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Timeslip",
+    "id": 1010857,
+    "city": " Palo Alto, California ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Tinkerer",
+    "id": 1011345,
+    "city": " Unrevealed, presumable New York City ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Unus (Age of Apocalypse)",
+    "id": 1010987,
+    "city": " Milan, Italy ",
+    "location": "Apocalypse",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Unus (House of M)",
+    "id": 1010988,
+    "city": " Milan, Italy ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Unus (Ultimate)",
+    "id": 1010986,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Vampiro",
+    "id": 1011182,
+    "city": " Unrevealed ",
+    "location": "Unrevealed ",
+    "locationType": "NA"
+  },
+  {
+    "name": "Vanisher (Age of Apocalypse)",
+    "id": 1010989,
+    "city": " Unrevealed ",
+    "location": "Apocalypse",
+    "locationType": "Outer Space"
+  },
+  {
+    "name": "Vapor",
+    "id": 1011316,
+    "city": " Unrevealed "
+  },
+  {
+    "name": "Vector",
+    "id": 1010872,
+    "city": " Unrevealed "
+  },
+  {
+    "name": "Veda",
+    "id": 1011231,
+    "city": " Unrevealed ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Vulture (Blackie Drago)",
+    "id": 1010990,
+    "city": null,
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Wallflower",
+    "id": 1010849,
+    "city": " Kent, Connecticut ",
+    "location": "United States",
+    "locationType": "Real"
+  },
+  {
+    "name": "Wallop",
+    "id": 1011267,
+    "city": " Ravenscroft, England ",
+    "location": "United Kingdom",
+    "locationType": "Real"
+  }
+]

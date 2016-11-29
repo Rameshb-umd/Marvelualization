@@ -6,6 +6,8 @@ var cheerio = require('cheerio');
 var fs = require('fs');
 var countriesMap = new HashMap();
 var locationTypeMap = new HashMap();
+var jsonfile = require('jsonfile');
+
 //Create WorkBook
 
 var map_workbook = new Excel.Workbook();
@@ -49,14 +51,31 @@ function createCountryColumns(worksheet) {
     createHeader(worksheet);
 
     console.log("Each Row Get Marvel Data");
+    var nodeListArray = new Array();
     worksheet.eachRow(function (row, rowNumber) {
         var citizenship = row.getCell(14).value;
         if (rowNumber > 1 && citizenship != "" && citizenship != "undefined" && citizenship != null) {
-            worksheet.getCell('W' + rowNumber).value = countriesMap.get(citizenship);
-            worksheet.getCell('X' + rowNumber).value = locationTypeMap.get(citizenship);
+            var location = countriesMap.get(citizenship);
+            var locationType = locationTypeMap.get(citizenship);
+            worksheet.getCell('W' + rowNumber).value = location;
+            worksheet.getCell('X' + rowNumber).value = locationType;
+            var nodeObject = new nodeListJson(worksheet.getCell('B' + rowNumber).value,
+                worksheet.getCell('A' + rowNumber).value,
+                worksheet.getCell('O' + rowNumber).value,
+                location,
+                locationType);
+            nodeListArray.push(nodeObject);
             row.commit();
         }
     });
+
+    var file = 'data/JSON/geoLocatedCharacters.json';
+    jsonfile.writeFile(file, nodeListArray, {
+        spaces: 2
+    }, function (err) {
+        console.error(err);
+    });
+
 
     console.log("Write Marvel Data back to excel sheet");
     char_workbook.xlsx.writeFile("data/marvel_characters_list.xlsx")
@@ -156,15 +175,23 @@ function createHeader(worksheet) {
             key: 'Hair'
                 },
         {
-            header: 'Origin',
-            key: 'Origin'
+            header: 'Location',
+            key: 'Location'
                 },
         {
-            header: 'Origin Type',
-            key: 'Origin_Type'
+            header: 'Location Type',
+            key: 'Location_Type'
                 },
             ];
 
+}
+
+function nodeListJson(name, id, city, location, locationType) {
+    this.name = name;
+    this.id = id;
+    this.city = city;
+    this.location = location;
+    this.locationType = locationType;
 }
 
 //Calling the main method

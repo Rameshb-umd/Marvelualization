@@ -1,7 +1,7 @@
 if (typeof require !== 'undefined') XLSX = require('xlsx');
 var fs = require('fs');
 var HashMap = require('hashmap');
-var jsonfile = require('jsonfile')
+var jsonfile = require('jsonfile');
 
 
 function CreateAdjacencyMatrixJSON() {
