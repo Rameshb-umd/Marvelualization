@@ -8,66 +8,103 @@
     <script src="http://d3js.org/topojson.v1.min.js"></script>
     <script src="http://d3js.org/queue.v1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/marvelWorld.css">
 </head>
-<style type="text/css">
-    .water {
-        fill: #00248F;
-    }
-    
-    .land {
-        fill: #ffffff;
-        stroke: grey;
-        stroke-width: 0.7px;
-    }
-    
-    .land:hover {
-        fill: #33CC33;
-        stroke-width: 1px;
-    }
-    
-    .focused {
-        fill: #33CC33;
-    }
-    
-    #countryList {
-        position: absolute;
-        top: 20px;
-        left: 580px;
-        border: solid #ccc 1px;
-        padding: 3px;
-        box-shadow: inset 1px 1px 2px #ddd8dc;
-        display: none;
-    }
-    
-    #marvelList {
-        position: absolute;
-        top: 40px;
-        left: 580px;
-        border: solid #ccc 1px;
-        padding: 3px;
-        box-shadow: inset 1px 1px 2px #ddd8dc;
-    }
-    
-    .countryTooltip {
-        position: absolute;
-        display: none;
-        pointer-events: none;
-        background: #fff;
-        padding: 5px;
-        text-align: left;
-        border: solid #ccc 1px;
-        color: #666;
-        font-size: 14px;
-        font-family: sans-serif;
-    }
-</style>
 
 <body>
     <script>
-        var width = 600,
-            height = 500,
+        var width = window.innerWidth,
+            height = window.innerHeight,
             sens = 0.25,
             focused;
+
+        function createStars(number) {
+            var data = [];
+            for (var i = 0; i < number; i++) {
+                data.push({
+                    geometry: {
+                        type: 'Point',
+                        coordinates: randomLonLat()
+                    },
+                    type: 'Feature',
+                    properties: {
+                        radius: sizeOfStar(i),
+                        className: classOfStar(i),
+                        name: "Asgard"
+                    }
+                });
+            }
+            return data;
+        }
+
+        function sizeOfStar(i) {
+            var rem = (i % 10);
+            var big = (i % 250);
+            if (rem == 0 && big != 0) {
+                return [Math.random() * 2];
+            } else if (big == 0) {
+                return [Math.random() * 8];
+            } else {
+                return [Math.random() * 1.2];
+            }
+
+        }
+
+        function classOfStar(i) {
+            var rem = (i % 10);
+            var big = (i % 100);
+            if (rem == 0 && big != 0) {
+                return "bigStar";
+            } else if (big == 0) {
+                return "planet";
+            } else {
+                return "star";
+            }
+
+        }
+
+        function randomLonLat() {
+            return [Math.random() * 360 - 180, Math.random() * 180 - 90];
+        }
+
+        //Create a list of random stars and add them to outerspace
+        var starList = createStars(10000);
+
+        //Setup path for outerspace
+        var space = d3.geo.equirectangular()
+            .translate([width / 2, height / 2]);
+
+        space.scale(space.scale() * 3);
+
+        var spacePath = d3.geo.path()
+            .projection(space)
+            .pointRadius(1);
+
+        var svg = d3.select("body").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        var stars = svg.append("g");
+        stars.transition().attr("transform", "scale(5)")
+        stars.selectAll("g")
+            .data(starList)
+            .enter()
+            .append("path")
+            .attr("class", function (d) {
+                return d.properties.className;
+            })
+            .attr("d", function (d) {
+                spacePath.pointRadius(d.properties.radius);
+                return spacePath(d);
+            }).on("mouseover", function (d) {
+                if (d.properties.className == "planet") {
+                    countryTooltip.text(d.properties.name)
+                        .style("left", (d3.event.pageX + 7) + "px")
+                        .style("top", (d3.event.pageY - 15) + "px")
+                        .style("display", "block")
+                        .style("opacity", 1);
+                }
+            });
 
         //Setting projection
 
@@ -80,15 +117,16 @@
         var path = d3.geo.path()
             .projection(projection);
 
-        //SVG container
-
-        var svg = d3.select("body").append("svg")
+        var rect = svg.append("g")
+            .attr("class", "frame")
             .attr("width", width)
-            .attr("height", height);
-
+            .attr("height", height)
+            .attr('class', 'globe')
+            .attr("filter", "url(#glow)")
+            .attr("fill", "url(#gradBlue)");
         //Adding water
 
-        svg.append("path")
+        rect.append("path")
             .datum({
                 type: "Sphere"
             })
@@ -137,7 +175,7 @@
 
             //Drawing countries on the globe
 
-            var world = svg.selectAll("path.land")
+            var world = rect.selectAll("path.land")
                 .data(countries)
                 .enter().append("path")
                 .attr("class", "land")
@@ -156,8 +194,8 @@
                 .on("drag", function () {
                     var rotate = projection.rotate();
                     projection.rotate([d3.event.x * sens, -d3.event.y * sens, rotate[2]]);
-                    svg.selectAll("path.land").attr("d", path);
-                    svg.selectAll(".focused").classed("focused", focused = false);
+                    rect.selectAll("path.land").attr("d", path);
+                    rect.selectAll(".focused").classed("focused", focused = false);
                 }))
 
             //Mouse events
@@ -179,17 +217,22 @@
                 });
 
             function matchAndperformTransition() {
+
                 var location = $('option:selected', this).attr('location');
                 var locationType = $('option:selected', this).attr('locationType');
                 location = location.trim();
                 var focusedLocation = $('#countryList option:contains(' + location + ')').attr("value");
                 console.log(location + ":" + locationType);
                 if (focusedLocation != "undefined" && focusedLocation != undefined) {
+
+                    rect.transition().duration(2500).attr("transform", "scale(1)")
+                    stars.transition().duration(2500).attr("transform", "scale(5)")
+
                     var rotate = projection.rotate(),
                         focusedCountry = countryByID(countries, focusedLocation),
                         p = d3.geo.centroid(focusedCountry);
                     console.log(focusedCountry + "????");
-                    svg.selectAll(".focused").classed("focused", focused = false);
+                    rect.selectAll(".focused").classed("focused", focused = false);
 
                     //Globe rotating
 
@@ -200,7 +243,7 @@
                                 var r = d3.interpolate(projection.rotate(), [-p[0], -p[1]]);
                                 return function (t) {
                                     projection.rotate(r(t));
-                                    svg.selectAll("path").attr("d", path)
+                                    rect.selectAll("path").attr("d", path)
                                         .classed("focused", function (d, i) {
                                             return d.id == focusedCountry.id ? focused = d : false;
                                         });
@@ -209,8 +252,9 @@
                     })();
                 } else {
                     if (locationType == "Outer Space") {
-                        alert("Outer Space");
-                        d3.selectAll("path").transition().attr("transform", "scale(.02)")
+                        //alert("Outer Space");
+                        rect.transition().duration(2500).attr("transform", "translate(" + width / 2 + "," + height / 2 + ")scale(.04)")
+                        stars.transition().duration(2500).attr("transform", "translate(" + width / 2 + "," + height / 3 + ")scale(1)")
                     } else {
                         alert("Not real country");
                     }
@@ -228,6 +272,25 @@
             };
         };
     </script>
+    <svg id="defs">
+        <defs>
+            <linearGradient id="gradBlue" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" style="stop-color:#005C99;stop-opacity:1" />
+                <stop offset="100%" style="stop-color:#0099FF;stop-opacity:1" />
+            </linearGradient>
+            <filter id="glow">
+                <feColorMatrix type="matrix" values="0 0 0 0   0
+                     0 0 0 0.9 0 
+                     0 0 0 0.9 0 
+                     0 0 0 1   0" />
+                <feGaussianBlur stdDeviation="5.5" result="coloredBlur" />
+                <feMerge>
+                    <feMergeNode in="coloredBlur" />
+                    <feMergeNode in="SourceGraphic" />
+                </feMerge>
+            </filter>
+        </defs>
+    </svg>
 </body>
 
 </html>
