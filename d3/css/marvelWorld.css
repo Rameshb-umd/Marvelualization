@@ -40,13 +40,13 @@ body {
     stroke-width: .25px;
 }
 
-.bigStar {
+.planet {
     fill: #24719c;
     stroke: rgba(255, 255, 255, .5);
     stroke-width: .25px;
 }
 
-.planet {
+.bigStar {
     fill: #e02416;
     stroke: rgba(255, 255, 255, .5);
     stroke-width: .25px;
@@ -60,18 +60,19 @@ body {
 }
 
 .land {
-    fill: #ffffff;
+    fill: #33CC33;
     stroke: grey;
     stroke-width: 0.7px;
 }
 
 .land:hover {
-    fill: #33CC33;
+    fill: #F14E2B;
     stroke-width: 1px;
 }
 
 .focused {
-    fill: #33CC33;
+    fill: white;
+    stroke-width: 1px;
 }
 
 #countryList {
