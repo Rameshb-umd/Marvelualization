@@ -15,15 +15,33 @@
         div.viz {
             width: 100%;
         }
+        
+        .Tooltip {
+            position: absolute;
+            display: none;
+            pointer-events: none;
+            background: #fff;
+            padding: 5px;
+            text-align: left;
+            border: solid #ccc 1px;
+            color: #666;
+            font-size: 14px;
+            font-family: sans-serif;
+        }
     </style>
 </head>
+<link rel="stylesheet" href="css/jquery.range.css">
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js" charset="utf-8" type="text/javascript"></script>
 <script src="js/timeLine.js" charset="utf-8" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/jquery.range-min.js" charset="utf-8" type="text/javascript"></script>
 
 <script>
     d3.json("json/TimeLine.json", function (result) {
 
+        var Tooltip = d3.select("#viz").append("div").attr("class", "Tooltip");
 
         var charactersName = new Array();
         result.forEach(function (d) {
@@ -31,8 +49,8 @@
         });
 
         var timeline = d3.layout.timeline()
-            .size([1500, window.innerWidth])
-            //.extent(["7/4/1776", "12/31/1876"])
+            .size([1200, 80])
+            .extent(["1945", "2016"])
             .padding(0)
             .maxBandHeight(15);
 
@@ -45,6 +63,7 @@
         result.forEach(function (d, i) {
             theseBands = timeline(d.data);
 
+            //console.log(JSON.stringify(theseBands));
             d3.select("svg").append("g")
                 .attr("transform", "translate(100," + (35 + (i * 15)) + ")")
                 .selectAll("rect")
@@ -53,6 +72,9 @@
                 .append("rect")
                 .attr("rx", 1)
                 .attr("x", function (d) {
+                    if (d.start < 0) {
+                        return 120;
+                    }
                     return d.start + 120
                 })
                 .attr("y", function (d) {
@@ -76,9 +98,20 @@
                         .style("stroke-width", 5)
                         .style("stroke", "white")
                         .style("cursor", "hand");
+                    var startDate = new Date(d.originalStart);
+                    var startDateString = startDate.getDate() + "-" + (startDate.getMonth() + 1) + "-" + startDate.getFullYear();
+                    var endDate = new Date(d.originalEnd);
+                    var endDateString = endDate.getDate() + "-" + (endDate.getMonth() + 1) + "-" + endDate.getFullYear();
+                    var textmessage = d.name + ":" + startDateString + " to " + endDateString;
+                    Tooltip.text(textmessage)
+                        .style("left", (d3.event.pageX + 7) + "px")
+                        .style("top", (d3.event.pageY - 15) + "px")
+                        .style("display", "block")
+                        .style("opacity", 1);
                 }).on("mouseout", function (d) {
                     d3.select(this).style("stroke-width", 1)
-                        .style("stroke", "grey")
+                        .style("stroke", "grey");
+                    Tooltip.style("display", "none")
                 });
 
             d3.select("svg").append("text")
@@ -109,12 +142,44 @@
                 .attr("transform", "translate(0,0)")
                 .call(xAxis);
 
-        });
 
+        });
+        var t = d3.select("svg").transition().duration(2500);
+
+        /* t.selectAll("g")
+             .attr("transform", function (d, i) {
+                 return "translate(100," + (35 + (15)) + ")";
+             })*/
+
+
+
+    });
+    var scale = [];
+    for (var i = 1940; i <= 2020; i++) {
+        if (i % 10 == 0) {
+            scale.push(i);
+        }
+
+    }
+    $(document).ready(function () {
+        $('.range-slider').jRange({
+            from: 1940,
+            to: 2020,
+            step: 1,
+            format: '%s',
+            width: 1000,
+            showLabels: true,
+            isRange: true,
+            theme: "theme-blue",
+            scale: scale
+        });
     });
 </script>
 
 <body>
+    <div style="width:100%; height:30px;">
+        <input type="text" class="range-slider" name="example_name" value="1940,2016" />
+    </div>
     <div id="viz">
         <svg style="background:white;" height=100% width=1100>
         </svg>

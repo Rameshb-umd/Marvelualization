@@ -18,9 +18,9 @@
      .append("g")
      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
- d3.json("json/adjacencyMatrix.json", function (miserables) {
+ d3.json("json/adjacencyMatrix.json", function (marvel) {
      var matrix = [],
-         nodes = miserables.nodes,
+         nodes = marvel.nodes,
          n = nodes.length;
 
      // Compute index per node.
@@ -34,10 +34,17 @@
                  z: 0
              };
          });
+         var html = '<div class="CharacterDiv">' +
+             '<div class = "header"></div>' +
+             '<label class = "characterName"> ' + node.name + ' </label>' +
+             '<label class = "comicCount"> Total Comic count :' + node.comicCount + ' </label> </div> ';
+         console.log(html);
+         $('#ListOfCharacter').append(html);
      });
 
+
      // Convert links to matrix; count character occurrences.
-     miserables.links.forEach(function (link) {
+     marvel.links.forEach(function (link) {
          matrix[link.source][link.target].z = link.value;
          matrix[link.target][link.source].z = link.value;
          //matrix[link.source][link.source].z = link.value;
@@ -154,7 +161,7 @@
      }
 
      function mouseover(p) {
-         console.log(matrix[nodes[p.x].order][nodes[p.y].order].z + "??");
+         // console.log(matrix[nodes[p.x].order][nodes[p.y].order].z + "??");
          d3.select(this).style("cursor", "pointer")
          d3.selectAll(".row text").classed("active", function (d, i) {
              return i == p.y;
@@ -175,7 +182,7 @@
      });
 
      function order(value) {
-         console.log(value + "Value:" + orders[value]);
+         //console.log(value + "Value:" + orders[value]);
          x.domain(orders[value]);
 
          var t = svg.transition().duration(2500);
