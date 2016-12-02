@@ -1,0 +1,1560 @@
+[
+  {
+    "name": "Spider-Man",
+    "data": [
+      {
+        "name": "Spider-Man",
+        "start": "1962-08-10",
+        "end": "2016-05-25",
+        "characterId": 1009610
+      }
+    ]
+  },
+  {
+    "name": "Iron Man",
+    "data": [
+      {
+        "name": "Iron Man",
+        "start": "1963-12-10",
+        "end": "2016-04-28",
+        "characterId": 1009368
+      }
+    ]
+  },
+  {
+    "name": "Captain America",
+    "data": [
+      {
+        "name": "Captain America",
+        "start": "1963-11-10",
+        "end": "2016-04-28",
+        "characterId": 1009220
+      },
+      {
+        "name": "Captain America",
+        "start": "1941-12-01",
+        "end": "1950-02-10",
+        "characterId": 1009220
+      }
+    ]
+  },
+  {
+    "name": "Hulk",
+    "data": [
+      {
+        "name": "Hulk",
+        "start": "2016-04-28",
+        "end": "2016-10-05",
+        "characterId": 1009351
+      },
+      {
+        "name": "Hulk",
+        "start": "1962-11-01",
+        "end": "2014-04-16",
+        "characterId": 1009351
+      }
+    ]
+  },
+  {
+    "name": "Thor",
+    "data": [
+      {
+        "name": "Thor",
+        "start": "1962-12-01",
+        "end": "2016-04-28",
+        "characterId": 1009664
+      }
+    ]
+  },
+  {
+    "name": "Avengers",
+    "data": [
+      {
+        "name": "Avengers",
+        "start": "1963-11-10",
+        "end": "2016-02-24",
+        "characterId": 1009165
+      }
+    ]
+  },
+  {
+    "name": "Fantastic Four",
+    "data": [
+      {
+        "name": "Fantastic Four",
+        "start": "2014-02-26",
+        "end": "2014-03-12",
+        "characterId": 1009299
+      },
+      {
+        "name": "Fantastic Four",
+        "start": "1961-11-08",
+        "end": "2012-01-25",
+        "characterId": 1009299
+      }
+    ]
+  },
+  {
+    "name": "Daredevil",
+    "data": [
+      {
+        "name": "Daredevil",
+        "start": "2016-06-01",
+        "end": "2016-11-09",
+        "characterId": 1009262
+      },
+      {
+        "name": "Daredevil",
+        "start": "1964-12-10",
+        "end": "2014-03-19",
+        "characterId": 1009262
+      }
+    ]
+  },
+  {
+    "name": "Human Torch",
+    "data": [
+      {
+        "name": "Human Torch",
+        "start": "2016-07-27",
+        "end": "2016-11-09",
+        "characterId": 1009356
+      },
+      {
+        "name": "Human Torch",
+        "start": "1972-02-10",
+        "end": "2012-02-29",
+        "characterId": 1009356
+      },
+      {
+        "name": "Human Torch",
+        "start": "1967-12-10",
+        "end": "1970-12-10",
+        "characterId": 1009356
+      },
+      {
+        "name": "Human Torch",
+        "start": "1961-11-08",
+        "end": "1965-02-10",
+        "characterId": 1009356
+      },
+      {
+        "name": "Human Torch",
+        "start": "1954-04-10",
+        "end": "1954-07-10",
+        "characterId": 1009356
+      },
+      {
+        "name": "Human Torch",
+        "start": "1939-12-01",
+        "end": "1949-01-10",
+        "characterId": 1009356
+      }
+    ]
+  },
+  {
+    "name": "Cyclops",
+    "data": [
+      {
+        "name": "Cyclops",
+        "start": "2016-07-27",
+        "end": "2016-10-05",
+        "characterId": 1009257
+      },
+      {
+        "name": "Cyclops",
+        "start": "1967-12-10",
+        "end": "2014-03-05",
+        "characterId": 1009257
+      },
+      {
+        "name": "Cyclops",
+        "start": "1963-08-10",
+        "end": "1964-07-10",
+        "characterId": 1009257
+      }
+    ]
+  },
+  {
+    "name": "Storm",
+    "data": [
+      {
+        "name": "Storm",
+        "start": "2016-08-24",
+        "end": "2016-11-16",
+        "characterId": 1009629
+      },
+      {
+        "name": "Storm",
+        "start": "1975-12-10",
+        "end": "2012-02-15",
+        "characterId": 1009629
+      }
+    ]
+  },
+  {
+    "name": "Beast",
+    "data": [
+      {
+        "name": "Beast",
+        "start": "1967-08-10",
+        "end": "2014-01-15",
+        "characterId": 1009175
+      }
+    ]
+  },
+  {
+    "name": "Colossus",
+    "data": [
+      {
+        "name": "Colossus",
+        "start": "2016-07-27",
+        "end": "2016-10-26",
+        "characterId": 1009243
+      },
+      {
+        "name": "Colossus",
+        "start": "1975-12-10",
+        "end": "2012-01-04",
+        "characterId": 1009243
+      },
+      {
+        "name": "Colossus",
+        "start": "1964-08-10",
+        "end": "1964-08-10",
+        "characterId": 1009243
+      },
+      {
+        "name": "Colossus",
+        "start": "1961-08-01",
+        "end": "1961-08-01",
+        "characterId": 1009243
+      }
+    ]
+  },
+  {
+    "name": "Sub-Mariner",
+    "data": [
+      {
+        "name": "Sub-Mariner",
+        "start": "1997-10-01",
+        "end": "2012-01-25",
+        "characterId": 1010791
+      },
+      {
+        "name": "Sub-Mariner",
+        "start": "1994-01-01",
+        "end": "1994-05-10",
+        "characterId": 1010791
+      },
+      {
+        "name": "Sub-Mariner",
+        "start": "1983-10-10",
+        "end": "1992-01-01",
+        "characterId": 1010791
+      },
+      {
+        "name": "Sub-Mariner",
+        "start": "1981-10-10",
+        "end": "1981-10-10",
+        "characterId": 1010791
+      },
+      {
+        "name": "Sub-Mariner",
+        "start": "1979-01-10",
+        "end": "1979-01-10",
+        "characterId": 1010791
+      },
+      {
+        "name": "Sub-Mariner",
+        "start": "1965-12-10",
+        "end": "1977-01-01",
+        "characterId": 1010791
+      },
+      {
+        "name": "Sub-Mariner",
+        "start": "1954-04-10",
+        "end": "1954-07-10",
+        "characterId": 1010791
+      },
+      {
+        "name": "Sub-Mariner",
+        "start": "1939-12-01",
+        "end": "1949-02-10",
+        "characterId": 1010791
+      }
+    ]
+  },
+  {
+    "name": "Archangel",
+    "data": [
+      {
+        "name": "Archangel",
+        "start": "2016-06-29",
+        "end": "2016-09-21",
+        "characterId": 1009159
+      },
+      {
+        "name": "Archangel",
+        "start": "1985-12-10",
+        "end": "2012-06-20",
+        "characterId": 1009159
+      },
+      {
+        "name": "Archangel",
+        "start": "1969-07-10",
+        "end": "1983-05-10",
+        "characterId": 1009159
+      },
+      {
+        "name": "Archangel",
+        "start": "1967-01-10",
+        "end": "1967-08-10",
+        "characterId": 1009159
+      },
+      {
+        "name": "Archangel",
+        "start": "1939-12-01",
+        "end": "1946-01-10",
+        "characterId": 1009159
+      }
+    ]
+  },
+  {
+    "name": "Doctor Strange",
+    "data": [
+      {
+        "name": "Doctor Strange",
+        "start": "2001-11-01",
+        "end": "2016-05-25",
+        "characterId": 1009282
+      },
+      {
+        "name": "Doctor Strange",
+        "start": "1972-11-10",
+        "end": "1999-02-01",
+        "characterId": 1009282
+      },
+      {
+        "name": "Doctor Strange",
+        "start": "1963-12-10",
+        "end": "1970-04-10",
+        "characterId": 1009282
+      }
+    ]
+  },
+  {
+    "name": "Deadpool",
+    "data": [
+      {
+        "name": "Deadpool",
+        "start": "1991-09-10",
+        "end": "2016-05-25",
+        "characterId": 1009268
+      }
+    ]
+  },
+  {
+    "name": "Nightcrawler",
+    "data": [
+      {
+        "name": "Nightcrawler",
+        "start": "2016-08-24",
+        "end": "2016-10-26",
+        "characterId": 1009472
+      },
+      {
+        "name": "Nightcrawler",
+        "start": "2014-11-19",
+        "end": "2014-11-19",
+        "characterId": 1009472
+      },
+      {
+        "name": "Nightcrawler",
+        "start": "1975-12-10",
+        "end": "2011-03-16",
+        "characterId": 1009472
+      }
+    ]
+  },
+  {
+    "name": "Mr. Fantastic",
+    "data": [
+      {
+        "name": "Mr. Fantastic",
+        "start": "1989-12-10",
+        "end": "2014-02-05",
+        "characterId": 1009459
+      },
+      {
+        "name": "Mr. Fantastic",
+        "start": "1974-07-10",
+        "end": "1987-01-10",
+        "characterId": 1009459
+      },
+      {
+        "name": "Mr. Fantastic",
+        "start": "1970-01-10",
+        "end": "1971-05-10",
+        "characterId": 1009459
+      },
+      {
+        "name": "Mr. Fantastic",
+        "start": "1968-03-10",
+        "end": "1968-11-06",
+        "characterId": 1009459
+      },
+      {
+        "name": "Mr. Fantastic",
+        "start": "1964-06-10",
+        "end": "1965-02-10",
+        "characterId": 1009459
+      },
+      {
+        "name": "Mr. Fantastic",
+        "start": "1961-11-08",
+        "end": "1962-03-01",
+        "characterId": 1009459
+      }
+    ]
+  },
+  {
+    "name": "Rogue",
+    "data": [
+      {
+        "name": "Rogue",
+        "start": "2016-07-27",
+        "end": "2016-11-09",
+        "characterId": 1009546
+      },
+      {
+        "name": "Rogue",
+        "start": "1981-01-10",
+        "end": "2012-01-11",
+        "characterId": 1009546
+      }
+    ]
+  },
+  {
+    "name": "Thing",
+    "data": [
+      {
+        "name": "Thing",
+        "start": "2015-04-08",
+        "end": "2015-04-08",
+        "characterId": 1009662
+      },
+      {
+        "name": "Thing",
+        "start": "1996-09-10",
+        "end": "2012-01-25",
+        "characterId": 1009662
+      },
+      {
+        "name": "Thing",
+        "start": "1975-07-10",
+        "end": "1994-12-10",
+        "characterId": 1009662
+      },
+      {
+        "name": "Thing",
+        "start": "1972-02-10",
+        "end": "1972-02-10",
+        "characterId": 1009662
+      },
+      {
+        "name": "Thing",
+        "start": "1970-01-10",
+        "end": "1970-01-10",
+        "characterId": 1009662
+      },
+      {
+        "name": "Thing",
+        "start": "1968-03-10",
+        "end": "1968-12-10",
+        "characterId": 1009662
+      },
+      {
+        "name": "Thing",
+        "start": "1964-11-10",
+        "end": "1965-02-10",
+        "characterId": 1009662
+      },
+      {
+        "name": "Thing",
+        "start": "1961-11-08",
+        "end": "1962-01-01",
+        "characterId": 1009662
+      }
+    ]
+  },
+  {
+    "name": "Punisher",
+    "data": [
+      {
+        "name": "Punisher",
+        "start": "2016-05-04",
+        "end": "2016-11-02",
+        "characterId": 1009515
+      },
+      {
+        "name": "Punisher",
+        "start": "2014-02-19",
+        "end": "2014-08-06",
+        "characterId": 1009515
+      },
+      {
+        "name": "Punisher",
+        "start": "1999-12-01",
+        "end": "2012-01-04",
+        "characterId": 1009515
+      },
+      {
+        "name": "Punisher",
+        "start": "1986-05-10",
+        "end": "1996-01-10",
+        "characterId": 1009515
+      },
+      {
+        "name": "Punisher",
+        "start": "1980-03-10",
+        "end": "1983-09-10",
+        "characterId": 1009515
+      },
+      {
+        "name": "Punisher",
+        "start": "1974-08-10",
+        "end": "1977-11-10",
+        "characterId": 1009515
+      }
+    ]
+  },
+  {
+    "name": "Iceman",
+    "data": [
+      {
+        "name": "Iceman",
+        "start": "2016-08-24",
+        "end": "2016-10-26",
+        "characterId": 1009362
+      },
+      {
+        "name": "Iceman",
+        "start": "1985-06-10",
+        "end": "2012-06-20",
+        "characterId": 1009362
+      },
+      {
+        "name": "Iceman",
+        "start": "1980-10-10",
+        "end": "1983-12-10",
+        "characterId": 1009362
+      },
+      {
+        "name": "Iceman",
+        "start": "1967-08-10",
+        "end": "1978-04-10",
+        "characterId": 1009362
+      },
+      {
+        "name": "Iceman",
+        "start": "1964-05-10",
+        "end": "1964-05-10",
+        "characterId": 1009362
+      }
+    ]
+  },
+  {
+    "name": "Invisible Woman",
+    "data": [
+      {
+        "name": "Invisible Woman",
+        "start": "1989-12-10",
+        "end": "2012-01-25",
+        "characterId": 1009366
+      },
+      {
+        "name": "Invisible Woman",
+        "start": "1983-12-10",
+        "end": "1987-01-10",
+        "characterId": 1009366
+      },
+      {
+        "name": "Invisible Woman",
+        "start": "1979-08-10",
+        "end": "1981-04-10",
+        "characterId": 1009366
+      }
+    ]
+  },
+  {
+    "name": "Silver Surfer",
+    "data": [
+      {
+        "name": "Silver Surfer",
+        "start": "2016-05-18",
+        "end": "2016-10-26",
+        "characterId": 1009592
+      },
+      {
+        "name": "Silver Surfer",
+        "start": "2010-07-14",
+        "end": "2013-01-30",
+        "characterId": 1009592
+      },
+      {
+        "name": "Silver Surfer",
+        "start": "1987-12-10",
+        "end": "2008-01-04",
+        "characterId": 1009592
+      },
+      {
+        "name": "Silver Surfer",
+        "start": "1982-12-10",
+        "end": "1983-02-10",
+        "characterId": 1009592
+      },
+      {
+        "name": "Silver Surfer",
+        "start": "1980-07-10",
+        "end": "1980-08-10",
+        "characterId": 1009592
+      },
+      {
+        "name": "Silver Surfer",
+        "start": "1974-07-10",
+        "end": "1974-07-10",
+        "characterId": 1009592
+      },
+      {
+        "name": "Silver Surfer",
+        "start": "1967-11-05",
+        "end": "1970-01-01",
+        "characterId": 1009592
+      }
+    ]
+  },
+  {
+    "name": "Captain Marvel (Carol Danvers)",
+    "data": [
+      {
+        "name": "Captain Marvel (Carol Danvers)",
+        "start": "2016-05-11",
+        "end": "2016-10-26",
+        "characterId": 1010338
+      },
+      {
+        "name": "Captain Marvel (Carol Danvers)",
+        "start": "1998-12-10",
+        "end": "2014-03-12",
+        "characterId": 1010338
+      },
+      {
+        "name": "Captain Marvel (Carol Danvers)",
+        "start": "1986-05-10",
+        "end": "1993-02-01",
+        "characterId": 1010338
+      },
+      {
+        "name": "Captain Marvel (Carol Danvers)",
+        "start": "1984-05-10",
+        "end": "1984-05-10",
+        "characterId": 1010338
+      },
+      {
+        "name": "Captain Marvel (Carol Danvers)",
+        "start": "1977-12-10",
+        "end": "1979-02-10",
+        "characterId": 1010338
+      }
+    ]
+  },
+  {
+    "name": "Black Panther",
+    "data": [
+      {
+        "name": "Black Panther",
+        "start": "1987-08-10",
+        "end": "2016-05-11",
+        "characterId": 1009187
+      },
+      {
+        "name": "Black Panther",
+        "start": "1984-01-10",
+        "end": "1984-01-10",
+        "characterId": 1009187
+      },
+      {
+        "name": "Black Panther",
+        "start": "1977-12-10",
+        "end": "1982-04-10",
+        "characterId": 1009187
+      },
+      {
+        "name": "Black Panther",
+        "start": "1967-11-05",
+        "end": "1974-03-10",
+        "characterId": 1009187
+      }
+    ]
+  },
+  {
+    "name": "Black Widow",
+    "data": [
+      {
+        "name": "Black Widow",
+        "start": "2016-03-02",
+        "end": "2016-11-09",
+        "characterId": 1009189
+      },
+      {
+        "name": "Black Widow",
+        "start": "1995-06-10",
+        "end": "2014-08-06",
+        "characterId": 1009189
+      },
+      {
+        "name": "Black Widow",
+        "start": "1990-10-10",
+        "end": "1993-08-30",
+        "characterId": 1009189
+      },
+      {
+        "name": "Black Widow",
+        "start": "1982-11-10",
+        "end": "1987-10-10",
+        "characterId": 1009189
+      },
+      {
+        "name": "Black Widow",
+        "start": "1969-04-10",
+        "end": "1979-01-10",
+        "characterId": 1009189
+      },
+      {
+        "name": "Black Widow",
+        "start": "1964-07-10",
+        "end": "1964-12-10",
+        "characterId": 1009189
+      },
+      {
+        "name": "Black Widow",
+        "start": "1942-07-10",
+        "end": "1942-07-10",
+        "characterId": 1009189
+      }
+    ]
+  },
+  {
+    "name": "Gambit",
+    "data": [
+      {
+        "name": "Gambit",
+        "start": "2016-06-22",
+        "end": "2016-10-12",
+        "characterId": 1009313
+      },
+      {
+        "name": "Gambit",
+        "start": "1990-12-10",
+        "end": "2013-01-23",
+        "characterId": 1009313
+      }
+    ]
+  },
+  {
+    "name": "She-Hulk (Jennifer Walters)",
+    "data": [
+      {
+        "name": "She-Hulk (Jennifer Walters)",
+        "start": "2016-06-01",
+        "end": "2016-10-19",
+        "characterId": 1009583
+      },
+      {
+        "name": "She-Hulk (Jennifer Walters)",
+        "start": "1980-12-10",
+        "end": "2014-02-12",
+        "characterId": 1009583
+      }
+    ]
+  },
+  {
+    "name": "Nick Fury",
+    "data": [
+      {
+        "name": "Nick Fury",
+        "start": "2016-06-22",
+        "end": "2016-09-21",
+        "characterId": 1009471
+      },
+      {
+        "name": "Nick Fury",
+        "start": "1988-11-10",
+        "end": "2014-03-26",
+        "characterId": 1009471
+      },
+      {
+        "name": "Nick Fury",
+        "start": "1986-04-10",
+        "end": "1986-07-10",
+        "characterId": 1009471
+      },
+      {
+        "name": "Nick Fury",
+        "start": "1977-12-10",
+        "end": "1984-03-10",
+        "characterId": 1009471
+      },
+      {
+        "name": "Nick Fury",
+        "start": "1973-06-10",
+        "end": "1975-04-10",
+        "characterId": 1009471
+      },
+      {
+        "name": "Nick Fury",
+        "start": "1965-12-10",
+        "end": "1971-01-10",
+        "characterId": 1009471
+      },
+      {
+        "name": "Nick Fury",
+        "start": "1963-05-10",
+        "end": "1963-05-10",
+        "characterId": 1009471
+      }
+    ]
+  },
+  {
+    "name": "Professor X",
+    "data": [
+      {
+        "name": "Professor X",
+        "start": "1991-12-01",
+        "end": "2012-08-08",
+        "characterId": 1009504
+      },
+      {
+        "name": "Professor X",
+        "start": "1988-07-10",
+        "end": "1989-02-10",
+        "characterId": 1009504
+      },
+      {
+        "name": "Professor X",
+        "start": "1978-10-10",
+        "end": "1986-01-10",
+        "characterId": 1009504
+      },
+      {
+        "name": "Professor X",
+        "start": "1971-10-10",
+        "end": "1976-06-10",
+        "characterId": 1009504
+      },
+      {
+        "name": "Professor X",
+        "start": "1967-11-10",
+        "end": "1968-02-10",
+        "characterId": 1009504
+      },
+      {
+        "name": "Professor X",
+        "start": "1965-02-10",
+        "end": "1965-02-10",
+        "characterId": 1009504
+      }
+    ]
+  },
+  {
+    "name": "Cable",
+    "data": [
+      {
+        "name": "Cable",
+        "start": "2016-07-27",
+        "end": "2016-11-09",
+        "characterId": 1009214
+      },
+      {
+        "name": "Cable",
+        "start": "2004-12-15",
+        "end": "2014-03-26",
+        "characterId": 1009214
+      },
+      {
+        "name": "Cable",
+        "start": "1990-12-10",
+        "end": "2002-01-01",
+        "characterId": 1009214
+      }
+    ]
+  },
+  {
+    "name": "Vision",
+    "data": [
+      {
+        "name": "Vision",
+        "start": "2016-06-01",
+        "end": "2016-11-02",
+        "characterId": 1009697
+      },
+      {
+        "name": "Vision",
+        "start": "1995-12-01",
+        "end": "2013-04-03",
+        "characterId": 1009697
+      },
+      {
+        "name": "Vision",
+        "start": "1989-12-10",
+        "end": "1993-01-10",
+        "characterId": 1009697
+      },
+      {
+        "name": "Vision",
+        "start": "1982-12-10",
+        "end": "1987-05-10",
+        "characterId": 1009697
+      },
+      {
+        "name": "Vision",
+        "start": "1979-08-10",
+        "end": "1980-03-10",
+        "characterId": 1009697
+      },
+      {
+        "name": "Vision",
+        "start": "1975-08-01",
+        "end": "1977-02-10",
+        "characterId": 1009697
+      },
+      {
+        "name": "Vision",
+        "start": "1968-12-10",
+        "end": "1973-02-10",
+        "characterId": 1009697
+      },
+      {
+        "name": "Vision",
+        "start": "1940-12-01",
+        "end": "1943-01-10",
+        "characterId": 1009697
+      }
+    ]
+  },
+  {
+    "name": "Mary Jane Watson",
+    "data": [
+      {
+        "name": "Mary Jane Watson",
+        "start": "2016-06-01",
+        "end": "2016-07-06",
+        "characterId": 1009708
+      },
+      {
+        "name": "Mary Jane Watson",
+        "start": "1987-10-10",
+        "end": "2013-01-30",
+        "characterId": 1009708
+      },
+      {
+        "name": "Mary Jane Watson",
+        "start": "1982-01-16",
+        "end": "1985-01-19",
+        "characterId": 1009708
+      },
+      {
+        "name": "Mary Jane Watson",
+        "start": "1971-06-10",
+        "end": "1978-03-10",
+        "characterId": 1009708
+      },
+      {
+        "name": "Mary Jane Watson",
+        "start": "1968-06-10",
+        "end": "1968-06-10",
+        "characterId": 1009708
+      }
+    ]
+  },
+  {
+    "name": "Scarlet Witch",
+    "data": [
+      {
+        "name": "Scarlet Witch",
+        "start": "2016-05-04",
+        "end": "2016-11-02",
+        "characterId": 1009562
+      },
+      {
+        "name": "Scarlet Witch",
+        "start": "1989-11-10",
+        "end": "2012-03-07",
+        "characterId": 1009562
+      },
+      {
+        "name": "Scarlet Witch",
+        "start": "1982-12-10",
+        "end": "1986-02-10",
+        "characterId": 1009562
+      },
+      {
+        "name": "Scarlet Witch",
+        "start": "1979-08-10",
+        "end": "1980-03-10",
+        "characterId": 1009562
+      },
+      {
+        "name": "Scarlet Witch",
+        "start": "1975-08-01",
+        "end": "1977-02-10",
+        "characterId": 1009562
+      },
+      {
+        "name": "Scarlet Witch",
+        "start": "1970-12-10",
+        "end": "1973-04-10",
+        "characterId": 1009562
+      },
+      {
+        "name": "Scarlet Witch",
+        "start": "1964-03-10",
+        "end": "1966-06-10",
+        "characterId": 1009562
+      }
+    ]
+  },
+  {
+    "name": "Magneto",
+    "data": [
+      {
+        "name": "Magneto",
+        "start": "2016-06-29",
+        "end": "2016-10-05",
+        "characterId": 1009417
+      },
+      {
+        "name": "Magneto",
+        "start": "1984-12-10",
+        "end": "2014-03-05",
+        "characterId": 1009417
+      },
+      {
+        "name": "Magneto",
+        "start": "1981-08-10",
+        "end": "1981-10-10",
+        "characterId": 1009417
+      },
+      {
+        "name": "Magneto",
+        "start": "1977-10-10",
+        "end": "1979-08-10",
+        "characterId": 1009417
+      },
+      {
+        "name": "Magneto",
+        "start": "1973-09-10",
+        "end": "1974-12-10",
+        "characterId": 1009417
+      },
+      {
+        "name": "Magneto",
+        "start": "1971-10-10",
+        "end": "1971-10-10",
+        "characterId": 1009417
+      },
+      {
+        "name": "Magneto",
+        "start": "1968-04-10",
+        "end": "1969-01-10",
+        "characterId": 1009417
+      },
+      {
+        "name": "Magneto",
+        "start": "1966-02-10",
+        "end": "1966-03-10",
+        "characterId": 1009417
+      },
+      {
+        "name": "Magneto",
+        "start": "1964-03-10",
+        "end": "1964-03-10",
+        "characterId": 1009417
+      }
+    ]
+  },
+  {
+    "name": "Hawkeye",
+    "data": [
+      {
+        "name": "Hawkeye",
+        "start": "1990-02-10",
+        "end": "2016-04-28",
+        "characterId": 1009338
+      },
+      {
+        "name": "Hawkeye",
+        "start": "1982-07-10",
+        "end": "1988-04-10",
+        "characterId": 1009338
+      },
+      {
+        "name": "Hawkeye",
+        "start": "1976-04-10",
+        "end": "1977-03-10",
+        "characterId": 1009338
+      },
+      {
+        "name": "Hawkeye",
+        "start": "1968-12-10",
+        "end": "1973-04-10",
+        "characterId": 1009338
+      },
+      {
+        "name": "Hawkeye",
+        "start": "1964-12-10",
+        "end": "1966-06-10",
+        "characterId": 1009338
+      }
+    ]
+  },
+  {
+    "name": "Psylocke",
+    "data": [
+      {
+        "name": "Psylocke",
+        "start": "2016-06-15",
+        "end": "2016-11-09",
+        "characterId": 1009512
+      },
+      {
+        "name": "Psylocke",
+        "start": "1986-12-10",
+        "end": "2012-04-18",
+        "characterId": 1009512
+      }
+    ]
+  },
+  {
+    "name": "Bishop",
+    "data": [
+      {
+        "name": "Bishop",
+        "start": "1991-12-10",
+        "end": "2011-02-02",
+        "characterId": 1009182
+      }
+    ]
+  },
+  {
+    "name": "Iron Fist (Danny Rand)",
+    "data": [
+      {
+        "name": "Iron Fist (Danny Rand)",
+        "start": "2016-05-18",
+        "end": "2016-11-09",
+        "characterId": 1009367
+      },
+      {
+        "name": "Iron Fist (Danny Rand)",
+        "start": "2000-12-01",
+        "end": "2014-04-09",
+        "characterId": 1009367
+      },
+      {
+        "name": "Iron Fist (Danny Rand)",
+        "start": "1998-03-01",
+        "end": "1998-10-01",
+        "characterId": 1009367
+      },
+      {
+        "name": "Iron Fist (Danny Rand)",
+        "start": "1996-09-01",
+        "end": "1996-10-01",
+        "characterId": 1009367
+      },
+      {
+        "name": "Iron Fist (Danny Rand)",
+        "start": "1992-08-10",
+        "end": "1993-03-01",
+        "characterId": 1009367
+      },
+      {
+        "name": "Iron Fist (Danny Rand)",
+        "start": "1987-07-10",
+        "end": "1987-07-10",
+        "characterId": 1009367
+      },
+      {
+        "name": "Iron Fist (Danny Rand)",
+        "start": "1974-11-10",
+        "end": "1985-08-10",
+        "characterId": 1009367
+      }
+    ]
+  },
+  {
+    "name": "Cannonball",
+    "data": [
+      {
+        "name": "Cannonball",
+        "start": "2016-07-27",
+        "end": "2016-09-28",
+        "characterId": 1009219
+      },
+      {
+        "name": "Cannonball",
+        "start": "2011-04-27",
+        "end": "2011-07-20",
+        "characterId": 1009219
+      },
+      {
+        "name": "Cannonball",
+        "start": "1988-07-10",
+        "end": "2009-02-04",
+        "characterId": 1009219
+      },
+      {
+        "name": "Cannonball",
+        "start": "1984-11-10",
+        "end": "1986-01-10",
+        "characterId": 1009219
+      },
+      {
+        "name": "Cannonball",
+        "start": "1981-06-10",
+        "end": "1981-06-10",
+        "characterId": 1009219
+      }
+    ]
+  },
+  {
+    "name": "Emma Frost",
+    "data": [
+      {
+        "name": "Emma Frost",
+        "start": "1994-11-10",
+        "end": "2013-02-13",
+        "characterId": 1009310
+      },
+      {
+        "name": "Emma Frost",
+        "start": "1991-10-10",
+        "end": "1991-10-10",
+        "characterId": 1009310
+      },
+      {
+        "name": "Emma Frost",
+        "start": "1987-03-10",
+        "end": "1987-03-10",
+        "characterId": 1009310
+      },
+      {
+        "name": "Emma Frost",
+        "start": "1984-01-08",
+        "end": "1984-05-10",
+        "characterId": 1009310
+      },
+      {
+        "name": "Emma Frost",
+        "start": "1980-03-10",
+        "end": "1981-12-10",
+        "characterId": 1009310
+      }
+    ]
+  },
+  {
+    "name": "Hank Pym",
+    "data": [
+      {
+        "name": "Hank Pym",
+        "start": "2016-06-22",
+        "end": "2016-06-22",
+        "characterId": 1011490
+      },
+      {
+        "name": "Hank Pym",
+        "start": "1995-06-10",
+        "end": "2011-01-05",
+        "characterId": 1011490
+      },
+      {
+        "name": "Hank Pym",
+        "start": "1991-09-10",
+        "end": "1993-06-30",
+        "characterId": 1011490
+      },
+      {
+        "name": "Hank Pym",
+        "start": "1989-01-20",
+        "end": "1989-01-20",
+        "characterId": 1011490
+      },
+      {
+        "name": "Hank Pym",
+        "start": "1987-06-01",
+        "end": "1987-06-01",
+        "characterId": 1011490
+      },
+      {
+        "name": "Hank Pym",
+        "start": "1975-08-01",
+        "end": "1983-01-10",
+        "characterId": 1011490
+      },
+      {
+        "name": "Hank Pym",
+        "start": "1969-04-10",
+        "end": "1972-01-10",
+        "characterId": 1011490
+      },
+      {
+        "name": "Hank Pym",
+        "start": "1962-12-01",
+        "end": "1965-01-10",
+        "characterId": 1011490
+      }
+    ]
+  },
+  {
+    "name": "Havok",
+    "data": [
+      {
+        "name": "Havok",
+        "start": "2011-11-09",
+        "end": "2012-10-10",
+        "characterId": 1009337
+      },
+      {
+        "name": "Havok",
+        "start": "1987-12-10",
+        "end": "2009-03-04",
+        "characterId": 1009337
+      },
+      {
+        "name": "Havok",
+        "start": "1975-08-10",
+        "end": "1984-01-10",
+        "characterId": 1009337
+      },
+      {
+        "name": "Havok",
+        "start": "1969-07-10",
+        "end": "1969-07-10",
+        "characterId": 1009337
+      }
+    ]
+  },
+  {
+    "name": "Spider-Man (Ultimate)",
+    "data": [
+      {
+        "name": "Spider-Man (Ultimate)",
+        "start": "1999-11-30",
+        "end": "2011-01-26",
+        "characterId": 1011010
+      }
+    ]
+  },
+  {
+    "name": "Ghost Rider (Johnny Blaze)",
+    "data": [
+      {
+        "name": "Ghost Rider (Johnny Blaze)",
+        "start": "2010-12-08",
+        "end": "2012-01-11",
+        "characterId": 1009318
+      },
+      {
+        "name": "Ghost Rider (Johnny Blaze)",
+        "start": "2005-10-12",
+        "end": "2008-01-09",
+        "characterId": 1009318
+      },
+      {
+        "name": "Ghost Rider (Johnny Blaze)",
+        "start": "1997-03-10",
+        "end": "2003-05-01",
+        "characterId": 1009318
+      },
+      {
+        "name": "Ghost Rider (Johnny Blaze)",
+        "start": "1990-12-10",
+        "end": "1995-01-10",
+        "characterId": 1009318
+      },
+      {
+        "name": "Ghost Rider (Johnny Blaze)",
+        "start": "1972-12-10",
+        "end": "1983-01-10",
+        "characterId": 1009318
+      }
+    ]
+  },
+  {
+    "name": "Quicksilver",
+    "data": [
+      {
+        "name": "Quicksilver",
+        "start": "2016-07-27",
+        "end": "2016-11-09",
+        "characterId": 1009524
+      },
+      {
+        "name": "Quicksilver",
+        "start": "1991-11-10",
+        "end": "2011-01-05",
+        "characterId": 1009524
+      },
+      {
+        "name": "Quicksilver",
+        "start": "1986-05-10",
+        "end": "1987-07-10",
+        "characterId": 1009524
+      },
+      {
+        "name": "Quicksilver",
+        "start": "1984-05-10",
+        "end": "1984-05-10",
+        "characterId": 1009524
+      },
+      {
+        "name": "Quicksilver",
+        "start": "1979-08-10",
+        "end": "1979-08-10",
+        "characterId": 1009524
+      },
+      {
+        "name": "Quicksilver",
+        "start": "1975-06-10",
+        "end": "1975-08-10",
+        "characterId": 1009524
+      },
+      {
+        "name": "Quicksilver",
+        "start": "1968-09-10",
+        "end": "1973-04-10",
+        "characterId": 1009524
+      },
+      {
+        "name": "Quicksilver",
+        "start": "1964-03-10",
+        "end": "1966-06-10",
+        "characterId": 1009524
+      }
+    ]
+  },
+  {
+    "name": "Luke Cage",
+    "data": [
+      {
+        "name": "Luke Cage",
+        "start": "2016-05-18",
+        "end": "2016-11-16",
+        "characterId": 1009215
+      },
+      {
+        "name": "Luke Cage",
+        "start": "2004-12-29",
+        "end": "2013-03-27",
+        "characterId": 1009215
+      },
+      {
+        "name": "Luke Cage",
+        "start": "2000-11-01",
+        "end": "2000-11-01",
+        "characterId": 1009215
+      },
+      {
+        "name": "Luke Cage",
+        "start": "1997-07-01",
+        "end": "1998-03-01",
+        "characterId": 1009215
+      },
+      {
+        "name": "Luke Cage",
+        "start": "1991-08-10",
+        "end": "1993-01-01",
+        "characterId": 1009215
+      },
+      {
+        "name": "Luke Cage",
+        "start": "1985-08-10",
+        "end": "1985-08-10",
+        "characterId": 1009215
+      },
+      {
+        "name": "Luke Cage",
+        "start": "1982-07-10",
+        "end": "1982-07-10",
+        "characterId": 1009215
+      },
+      {
+        "name": "Luke Cage",
+        "start": "1977-12-01",
+        "end": "1978-02-01",
+        "characterId": 1009215
+      },
+      {
+        "name": "Luke Cage",
+        "start": "1972-12-01",
+        "end": "1973-01-01",
+        "characterId": 1009215
+      }
+    ]
+  },
+  {
+    "name": "J. Jonah Jameson",
+    "data": [
+      {
+        "name": "J. Jonah Jameson",
+        "start": "2016-07-27",
+        "end": "2016-07-27",
+        "characterId": 1009372
+      },
+      {
+        "name": "J. Jonah Jameson",
+        "start": "2003-06-30",
+        "end": "2013-06-19",
+        "characterId": 1009372
+      },
+      {
+        "name": "J. Jonah Jameson",
+        "start": "1995-03-01",
+        "end": "2001-05-01",
+        "characterId": 1009372
+      },
+      {
+        "name": "J. Jonah Jameson",
+        "start": "1992-11-01",
+        "end": "1993-02-01",
+        "characterId": 1009372
+      },
+      {
+        "name": "J. Jonah Jameson",
+        "start": "1979-11-10",
+        "end": "1990-12-10",
+        "characterId": 1009372
+      },
+      {
+        "name": "J. Jonah Jameson",
+        "start": "1971-12-10",
+        "end": "1976-01-10",
+        "characterId": 1009372
+      },
+      {
+        "name": "J. Jonah Jameson",
+        "start": "1967-09-10",
+        "end": "1969-04-10",
+        "characterId": 1009372
+      },
+      {
+        "name": "J. Jonah Jameson",
+        "start": "1964-10-01",
+        "end": "1965-06-10",
+        "characterId": 1009372
+      }
+    ]
+  }
+]

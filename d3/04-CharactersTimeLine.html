@@ -1,0 +1,126 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Categorized Timeline Using Dates</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        svg {
+            width: 98%;
+        }
+        
+        .TextClass {
+            color: white;
+        }
+        
+        div.viz {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js" charset="utf-8" type="text/javascript"></script>
+<script src="js/timeLine.js" charset="utf-8" type="text/javascript"></script>
+
+<script>
+    d3.json("json/TimeLine.json", function (result) {
+
+
+        var charactersName = new Array();
+        result.forEach(function (d) {
+            charactersName.push(d.name);
+        });
+
+        var timeline = d3.layout.timeline()
+            .size([1500, window.innerWidth])
+            //.extent(["7/4/1776", "12/31/1876"])
+            .padding(0)
+            .maxBandHeight(15);
+
+        colorScale = d3.scale.ordinal()
+            .domain(charactersName)
+            .range(["#3366cc", "#dc3912", "#ff9900", "#109618", "#990099",
+                             "#0099c6", "#dd4477", "#66aa00", "#b82e2e", "#316395",
+                             "#994499", "#22aa99", "#aaaa11", "#6633cc", "#e67300", "#8b0707", "#651067", "#329262", "#5574a6", "#3b3eac"]);
+
+        result.forEach(function (d, i) {
+            theseBands = timeline(d.data);
+
+            d3.select("svg").append("g")
+                .attr("transform", "translate(100," + (35 + (i * 15)) + ")")
+                .selectAll("rect")
+                .data(theseBands)
+                .enter()
+                .append("rect")
+                .attr("rx", 1)
+                .attr("x", function (d) {
+                    return d.start + 120
+                })
+                .attr("y", function (d) {
+                    return d.y
+                })
+                .attr("height", function (d) {
+                    return d.dy
+                })
+                .attr("width", function (d) {
+                    return d.end - d.start
+                })
+                .style("fill", function (d) {
+                    return colorScale(d.name)
+                }).attr("class", function (d) {
+                    return d.name;
+                })
+                .style("stroke", "grey")
+                .style("stroke-width", 1)
+                .on("mouseover", function (d) {
+                    d3.select(this)
+                        .style("stroke-width", 5)
+                        .style("stroke", "white")
+                        .style("cursor", "hand");
+                }).on("mouseout", function (d) {
+                    d3.select(this).style("stroke-width", 1)
+                        .style("stroke", "grey")
+                });
+
+            d3.select("svg").append("text")
+                .text(d.name)
+                .attr("y", 45 + (i * 15))
+                .attr("x", 0)
+                .attr("fill", "black");
+
+            var margin = {
+                    top: 10,
+                    right: 0,
+                    bottom: 30,
+                    left: 0
+                },
+                width = window.innerWidth - margin.left - margin.right,
+                height = window.innerHeight - margin.top - margin.bottom;
+
+            var x0 = d3.scale.ordinal()
+                .rangeRoundBands([0, width], 0.5);
+
+            var xAxis = d3.svg.axis()
+                .scale(x0)
+                .orient("bottom")
+                .tickFormat(d3.format(".2s"));
+
+            d3.select("svg").append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0,0)")
+                .call(xAxis);
+
+        });
+
+    });
+</script>
+
+<body>
+    <div id="viz">
+        <svg style="background:white;" height=100% width=1100>
+        </svg>
+    </div>
+    <footer>
+    </footer>
+</body>
+
+</html>

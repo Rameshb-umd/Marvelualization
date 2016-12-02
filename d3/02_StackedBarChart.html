@@ -76,7 +76,7 @@
                     }
                     return d.yend;
                 });
-                console.log("d.total" + d.total);
+                //console.log("d.total" + d.total);
 
             });
             x0.domain(result.data.map(function (d) {
@@ -128,14 +128,14 @@
                     return y(d.yend);
                 })
                 .attr("height", function (d) {
-                    console.log(y(d.ybegin) - y(d.yend) + "Y begin");
+                    //console.log(y(d.ybegin) - y(d.yend) + "Y begin");
                     return y(d.ybegin) - y(d.yend);
                 })
                 .style("fill", function (d) {
                     return color(d.column);
                 })
                 .style("fill-opacity", function (d) {
-                    console.log(z(d.yend - d.ybegin) + "The Tickesn");
+                    //console.log(z(d.yend - d.ybegin) + "The Tickesn");
                     return z(d.yend - d.ybegin);
                 })
                 .style("stroke-width", 0.3) // set the stroke width
