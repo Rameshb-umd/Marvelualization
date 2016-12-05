@@ -74,9 +74,9 @@ function randomLonLat() {
 
 
 
-var countryTooltip = d3.select("body").append("div").attr("class", "countryTooltip"),
-    countryList = d3.select("body").append("select").attr("name", "countries").attr("id", "countryList"),
-    marvelList = d3.select("body").append("select").attr("name", "marvelCountries").attr("id", "marvelList");
+var countryTooltip = d3.select("body").append("div").attr("class", "Tooltip");
+var countryList = d3.select("#filter").append("select").attr("name", "countries").attr("id", "countryList");
+var marvelList = d3.select("#filter").append("select").attr("name", "marvelCountries").attr("id", "marvelList");
 
 
 queue()
@@ -118,7 +118,6 @@ function ready(error, world, countryData, marvel) {
             option.attr("location", d.location);
             option.attr("locationType", d.locationType);
             if (d.locationType == "Outer Space") {
-                //console.log(d.location);
                 if (d.location in PlanetsNameMap) {
                     var charCount = parseInt(PlanetsNameMap[d.location]);
                     PlanetsNameMap[d.location] = charCount + 1;
@@ -188,7 +187,13 @@ function ready(error, world, countryData, marvel) {
             return spacePath(d);
         }).on("mouseover", function (d) {
             if (d.properties.className == "planet") {
-                countryTooltip.text(d.properties.name)
+                var planetName = d.properties.name
+                var textmessage = planetName;
+                if (planetName in PlanetsNameMap) {
+                    textmessage = "<label>Country Name: &nbsp;</label><label class='ToolTipText'> " + planetName + "</label><br>" +
+                        "<label>Number of Marvel Characters: &nbsp;&nbsp;</label><label class='ToolTipText'> " + PlanetsNameMap[planetName] + "</label><br>";
+                }
+                countryTooltip.html(textmessage)
                     .style("left", (d3.event.pageX + 7) + "px")
                     .style("top", (d3.event.pageY - 15) + "px")
                     .style("display", "block")
@@ -230,28 +235,29 @@ function ready(error, world, countryData, marvel) {
         .enter().append("path")
         .attr("class", "land")
         .attr("d", path)
-
-    //Drag event
-
-    .call(d3.behavior.drag()
-        .origin(function () {
-            var r = projection.rotate();
-            return {
-                x: r[0] / sens,
-                y: -r[1] / sens
-            };
-        })
-        .on("drag", function () {
-            var rotate = projection.rotate();
-            projection.rotate([d3.event.x * sens, -d3.event.y * sens, rotate[2]]);
-            rect.selectAll("path.land").attr("d", path);
-            //rect.selectAll(".focused").classed("focused", focused = false);
-        }))
-
-    //Mouse events
-
-    .on("mouseover", function (d) {
-            countryTooltip.text(countryById[d.id])
+        //Drag event
+        .call(d3.behavior.drag()
+            .origin(function () {
+                var r = projection.rotate();
+                return {
+                    x: r[0] / sens,
+                    y: -r[1] / sens
+                };
+            })
+            .on("drag", function () {
+                var rotate = projection.rotate();
+                projection.rotate([d3.event.x * sens, -d3.event.y * sens, rotate[2]]);
+                rect.selectAll("path.land").attr("d", path);
+            }))
+        //Mouse events
+        .on("mouseover", function (d) {
+            var country = countryById[d.id];
+            var textmessage = country;
+            if (country in countryNameMap) {
+                textmessage = "<label>Country Name: &nbsp;</label><label class='ToolTipText'> " + country + "</label><br>" +
+                    "<label>Number of Marvel Characters: &nbsp;&nbsp;</label><label class='ToolTipText'> " + countryNameMap[country] + "</label><br>";
+            }
+            countryTooltip.html(textmessage)
                 .style("left", (d3.event.pageX + 7) + "px")
                 .style("top", (d3.event.pageY - 15) + "px")
                 .style("display", "block")
@@ -261,10 +267,20 @@ function ready(error, world, countryData, marvel) {
             countryTooltip.style("opacity", 0)
                 .style("display", "none");
         })
+        .style("fill", function (d) {
+            var country = countryById[d.id];
+            if (country in countryNameMap) {
+                return "#45a9c5";
+            } else {
+                return "#33CC33";
+            }
+
+        })
         .on("mousemove", function (d) {
             countryTooltip.style("left", (d3.event.pageX + 7) + "px")
                 .style("top", (d3.event.pageY - 15) + "px");
         });
+
 
     function restColor() {
         p = d3.geo.centroid();
@@ -289,11 +305,16 @@ function ready(error, world, countryData, marvel) {
     function matchAndperformTransition() {
         var location = $('option:selected', this).attr('location');
         var locationType = $('option:selected', this).attr('locationType');
+
         location = location.trim();
+
         var focusedLocation = $('#countryList option:contains(' + location + ')').attr("value");
+
         if (focusedLocation != "undefined" && focusedLocation != undefined) {
+
             rect.transition().duration(2500).attr("transform", "scale(1)")
             stars.transition().duration(2500).attr("transform", "scale(5)")
+
             var rotate = projection.rotate(),
                 focusedCountry = countryByID(countries, focusedLocation),
                 p = d3.geo.centroid(focusedCountry);
