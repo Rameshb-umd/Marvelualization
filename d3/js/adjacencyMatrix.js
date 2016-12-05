@@ -1,11 +1,11 @@
  var margin = {
-         top: 100,
+         top: 180,
          right: 0,
          bottom: 10,
-         left: 100
+         left: 200
      },
-     width = 600,
-     height = 600;
+     width = 700,
+     height = 700;
 
  var x = d3.scale.ordinal().rangeBands([0, width]),
      z = d3.scale.linear().domain([0, 300]).clamp(true),
@@ -17,13 +17,14 @@
      .attr("class", "MatrixSvg")
      .append("g")
      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
+ var ObjectMap = {};
  d3.json("json/adjacencyMatrix.json", function (marvel) {
      var matrix = [],
          nodes = marvel.nodes,
          n = nodes.length;
 
      // Compute index per node.
+     var totalComics = 2812;
      nodes.forEach(function (node, i) {
          node.index = node.order;
          node.count = 0;
@@ -34,12 +35,17 @@
                  z: 0
              };
          });
-         var html = '<div class="CharacterDiv">' +
-             '<div class = "header"></div>' +
+         var comicPT = Math.round((parseInt(node.comicCount) / totalComics) * 100);
+         var html = '<li class="ui-state-default characterDragLi character_' + node.order + '" order="' + node.order + '"' +
+             '><div class= "CharacterDiv draggable">' +
+             '<div class="CharacterDivHeader" style="width:' + comicPT + '%"></div>' +
              '<label class = "characterName"> ' + node.name + ' </label>' +
-             '<label class = "comicCount"> Total Comic count :' + node.comicCount + ' </label> </div> ';
-         console.log(html);
-         $('#ListOfCharacter').append(html);
+             '<label class = "comicCount">(' + node.comicCount + ' )</label></div></li> ';
+         //console.log(html);
+         $('#Characterssortable').append(html);
+         $("#Characterssortable").sortable({
+             stop: customSortFunction
+         });
      });
 
 
@@ -47,10 +53,6 @@
      marvel.links.forEach(function (link) {
          matrix[link.source][link.target].z = link.value;
          matrix[link.target][link.source].z = link.value;
-         //matrix[link.source][link.source].z = link.value;
-         //matrix[link.target][link.target].z = link.value;
-         //nodes[link.source].count = link.value;
-         //nodes[link.target].count = link.value;
      });
 
      // Precompute the orders.
@@ -65,6 +67,21 @@
              return nodes[b].group - nodes[a].group;
          })
      };
+
+     var defaultOrder = orders.name;
+
+     var arrayLength = defaultOrder.length;
+     var prevElement = null;
+
+     for (var i = 0; i < arrayLength; i++) {
+         var element = defaultOrder[i];
+         ObjectMap[element] = $(".character_" + element).remove();
+     }
+
+     for (var i = 0; i < arrayLength; i++) {
+         var element = defaultOrder[i];
+         $('#Characterssortable').append(ObjectMap[element]);
+     }
 
      // The default sort order.
      x.domain(orders.name);
@@ -119,8 +136,8 @@
              return nodes[i].name;
          });
 
-     function row(row) {
 
+     function row(row) {
 
          var cell = d3.select(this).selectAll(".cell")
              .data(row.filter(function (d) {
@@ -137,6 +154,11 @@
              .attr("x", function (d) {
                  return x(d.x);
              })
+             .attr("nodeX", function (d) {
+                 return d.x;
+             }).attr("nodeY", function (d) {
+                 return d.y;
+             })
              .attr("width", x.rangeBand())
              .attr("height", x.rangeBand())
              .style("fill-opacity", function (d) {
@@ -144,20 +166,26 @@
                  return z(d.z);
              })
              .style("fill", function (d) {
-                 //console.log(nodes[d.x].name + ":" + nodes[d.y].name + ":" + matrix[nodes[d.x].order][nodes[d.y].order].z);
                  return nodes[d.x].group == nodes[d.y].group ? c(nodes[d.x].group) : null;
-                 //return c(matrix[nodes[d.x].order][nodes[d.y].order].z);
              })
              .on("mouseover", mouseover)
              .on("mouseout", mouseout)
              .on('click', onclickEvent);
 
-
      }
 
      function onclickEvent(d) {
          //console.log(matrix[nodes[p.x].order][nodes[p.y].order].z + "??");
-         alert(matrix[nodes[d.x].order][nodes[d.y].order].z + "??" + nodes[d.x].name + ":" + nodes[d.y].name + "Count" + nodes[d.x].comicCount);
+         $('#my_popup').popup('show');
+         //         var MarvelAPI = "http://gateway.marvel.com/v1/public/characters/" + nodes[d.x].id;
+         //         $.getJSON(MarvelAPI, {
+         //                 apikey: "a8737e8ce63836b20a6db288a19286be",
+         //                 format: "json"
+         //             })
+         //             .done(function (data) {
+         //                 alert("Hi??");
+         //             });
+         //alert(matrix[nodes[d.x].order][nodes[d.y].order].z + "??" + nodes[d.x].name + ":" + nodes[d.y].name + "Count" + nodes[d.x].comicCount);
      }
 
      function mouseover(p) {
@@ -178,15 +206,70 @@
 
      d3.select("#order").on("change", function () {
          //clearTimeout(timeout);
-         order(this.value);
+         orderWrapper(this.value);
      });
 
-     function order(value) {
-         //console.log(value + "Value:" + orders[value]);
-         x.domain(orders[value]);
+     d3.select(".Dominance").on("change", function () {
+         changeColor(this.value);
+     });
+     d3.select(".Affiliation").on("change", function () {
+         changeColor(this.value);
+     });
 
-         var t = svg.transition().duration(2500);
+     function changeColor(value) {
+         if (value == "Dominance") {
+             d3.selectAll(".row").selectAll("g").selectAll("rect")
+                 .style("fill", function () {
+                     var x = d3.select(this).attr("nodeX");
+                     var y = d3.select(this).attr("nodeY");
+                     if (x != null) {
+                         if (nodes[x].comicCount > nodes[y].comicCount) {
+                             return c(nodes[x].group);
+                         } else {
+                             return c(nodes[y].group);
+                         }
+                     }
+                 });
+             console.log("done");
+         } else {
+             d3.selectAll(".row").selectAll("g").selectAll("rect")
+                 .style("fill", function () {
+                     var x = d3.select(this).attr("nodeX");
+                     var y = d3.select(this).attr("nodeY");
+                     if (x != null) {
+                         return nodes[x].group == nodes[y].group ? c(nodes[x].group) : null;
+                     }
 
+                 });
+             console.log("done");
+         }
+     }
+
+     function customSortFunction() {
+         var customOrder = new Array();
+         $(".characterDragLi").each(function (index) {
+             customOrder.push($(this).attr("order"));
+         });
+         order(customOrder, 1500);
+     }
+
+     function orderWrapper(value) {
+         var prebuiltOrder = orders[value];
+         order(prebuiltOrder, 2500);
+
+         //Change the side elements
+         $('#Characterssortable').empty(500);
+         for (var i = 0; i < prebuiltOrder.length; i++) {
+             var element = prebuiltOrder[i];
+             var $new = ObjectMap[element];
+             $('#Characterssortable').append($new);
+             $new.show('slow');
+         }
+     }
+
+     function order(prebuiltOrder, duration) {
+         x.domain(prebuiltOrder);
+         var t = svg.transition().duration(duration);
          t.selectAll(".row")
              .delay(function (d, i) {
                  return x(i) * 4;

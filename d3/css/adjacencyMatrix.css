@@ -22,7 +22,7 @@
  
  #MatrixBackground {
      background: #e3e8ea;
-     margin-top: 60px;
+     margin-top: 0px;
      margin-bottom: 60px;
      padding-top: 25px;
      padding-bottom: 25px;
@@ -35,29 +35,68 @@
  
  .CharacterDiv {
      width: 100%;
-     height: 30px;
+     height: 35px;
      border: 1px solid grey;
-     background: #ede0f9;
-     margin-top: 2px;
+     background: #f5f3f7;
+     margin-top: 1px;
      -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
      -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
      box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+     cursor: pointer;
      cursor: hand;
  }
  
- .CharacterDiv .header {
-     width: 100%;
-     height: 5px;
-     background: #8a8a8a;
+ .CharacterDiv .CharacterDivHeader {
+     height: 8px;
+     background: #1bab51;
  }
  
  .CharacterDiv .characterName {
-     margin-left: 10px;
-     font-size: 14px;
+     margin-left: 5px;
+     font-size: 12px;
  }
  
  .CharacterDiv .comicCount {
-     margin-left: 10px;
-     margin-top: -5px;
-     font-size: 10px;
+     margin-left: 2px;
+     margin-top: 0px;
+     font-size: 8px;
+     color: brown;
+ }
+ 
+ #Characterssortable {
+     list-style: none;
+     columns: 2;
+     -webkit-columns: 2;
+     -moz-columns: 2;
+ }
+ 
+ .matrixContainer {
+     width: 95%;
+     margin-left: 20px;
+ }
+ 
+ #my_popup {
+     width: 800px;
+     height: 500px;
+     background: white;
+     -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+     -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+     box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+ }
+ 
+ .my_popup_container {
+     width: 100%;
+     height: 450px;
+ }
+ 
+ .my_popup_container_header {
+     width: 100%;
+     height: 30px;
+     background: #337ab7;
+ }
+ 
+ .my_popup_container_footer {
+     width: 100%;
+     height: 30px;
+     text-align: center;
  }
