@@ -1,144 +1,170 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>Marvel - Grouped Stackbar Matrix</title>
+<html lang="en">
 
-<style>
-    body {
-        font: 10px sans-serif;
-    }
-    
-    .axis path,
-    .axis line {
-        fill: none;
-        stroke: #000;
-        shape-rendering: crispEdges;
-    }
-</style>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>Marvel Visualization - Marvelualization</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/adjacencyMatrix.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.range.css">
+
+
+    <!-- Bootstrap styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style>
+        [class*="fa-"]:before {
+            font-family: 'FontAwesome', sans-serif;
+        }
+        
+        body {
+            font: 10px sans-serif;
+        }
+        
+        #Legend {
+            font-size: 14px;
+            font-family: sans-serif;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: white;
+            shape-rendering: crispEdges;
+        }
+        
+        .mainSVg {
+            background: #252525;
+        }
+        
+        .whiteClass {
+            background: white;
+            fill: white;
+        }
+        
+        .label,
+        .tick {
+            fill: white;
+        }
+        
+        .tick text {
+            fill: white;
+        }
+        
+        .Tooltip {
+            position: absolute;
+            display: none;
+            pointer-events: none;
+            background: #fff;
+            padding: 5px;
+            text-align: left;
+            border: solid #ccc 1px;
+            color: #666;
+            font-size: 12px;
+            font-family: sans-serif;
+            width: 400px;
+            height: 100px;
+            -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+            box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+        }
+        
+        .Tooltip >.ToolTipText {
+            color: brown;
+        }
+        
+        .comics {
+            cursor: hand;
+            cursor: pointer;
+        }
+    </style>
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
 <body>
-    <script src="https://d3js.org/d3.v3.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script>
-        var margin = {
-                top: 10,
-                right: 0,
-                bottom: 30,
-                left: 40
-            },
-            width = 1200 - margin.left - margin.right,
-            height = 700 - margin.top - margin.bottom;
 
-        var z = d3.scale.linear();
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Marvelualization</a>
+            </div>
+            <div class="navbar-collapse collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">HOME</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
 
-        var x0 = d3.scale.ordinal()
-            .rangeRoundBands([0, width], 0.5);
+    <!-- *****************************************************************************************************************
+	 BLUE WRAP
+	 ***************************************************************************************************************** -->
+    <div id="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-10" id="Legend">
+                    <span style="width:15px;height:15px;background:#FF0000">&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;Captain America &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span style="width:15px;height:15px;background:#0080FF">&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;Iron Man</div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12" id="" style="margin-bottom:30px;margin-top:10px">
+                    <input type="text" class="range-slider" name="year_Slider" value="1990,2016" />
+                </div>
+                <!-- /row -->
+            </div>
+            <div class="row">
+                <div class="col-lg-12" id="StackedGroupChart"></div>
+            </div>
+            <!-- /container -->
+        </div>
+        <div id="my_popup" style="display:none">
+            <div class="my_popup_container">
+                <div class="my_popup_container_header"></div>
+            </div>
+            <div class="my_popup_container_footer">
+                <button class="my_popup_close btn btn-primary">Close</button>
+            </div>
 
-        var x1 = d3.scale.ordinal();
+        </div>
 
-        var y = d3.scale.linear()
-            .range([height, 0]);
-
-        var xAxis = d3.svg.axis()
-            .scale(x0)
-            .orient("bottom");
-
-        var yAxis = d3.svg.axis()
-            .scale(y)
-            .orient("left")
-            .tickFormat(d3.format(".2s"));
-
-        var color = d3.scale.ordinal()
-            .range(["#FF0000", "#0080FF"]);
-
-        var svg = d3.select("body").append("svg")
-            .attr("width", width + margin.left + margin.right)
-            .attr("height", height + margin.top + margin.bottom)
-            .append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-            .attr('stroke', '#black')
-            .attr('stroke-width', 2);
-
-        var yBegin;
-
-        d3.json("json/StackedBarChart.json", function (result) {
-
-            var maxYvalue = 0;
-            var maxDifference = 0;
-            result.data.forEach(function (d) {
-                d.columnDetails = d.prices;
-                d.total = d3.max(d.columnDetails, function (d) {
-                    if (parseInt(d.yend) > maxYvalue) {
-                        maxYvalue = parseInt(d.yend);
-                    }
-                    var diff = parseInt(d.yend) - parseInt(d.ybegin);
-                    if (diff > maxDifference) {
-                        maxDifference = diff;
-                    }
-                    return d.yend;
-                });
-                //console.log("d.total" + d.total);
-
-            });
-            x0.domain(result.data.map(function (d) {
-                return d.year;
-            }));
-
-            var innercolumns = eval("(" + result.innercolumns + ')');
-            x1.domain(d3.keys(innercolumns)).rangeRoundBands([0, x0.rangeBand()]);
-
-            y.domain([0, d3.max(result.data, function (d) {
-                return maxYvalue;
-            })]);
-
-            z.domain([0, maxDifference]).clamp(true);
-
-            svg.append("g")
-                .attr("class", "x axis")
-                .attr("transform", "translate(0," + height + ")")
-                .call(xAxis);
-
-            svg.append("g")
-                .attr("class", "y axis")
-                .call(yAxis)
-                .append("text")
-                .attr("transform", "rotate(-90)")
-                .attr("y", 6)
-                .attr("dy", ".2em")
-                .style("text-anchor", "end")
-                .text("");
-
-            var project_stackedbar = svg.selectAll(".project_stackedbar")
-                .data(result.data)
-                .enter().append("g")
-                .attr("class", "g")
-                .attr("transform", function (d) {
-                    return "translate(" + x0(d.year) + ",0)";
-                })
-
-            project_stackedbar.selectAll("rect")
-                .data(function (d) {
-                    return d.columnDetails;
-                })
-                .enter().append("rect")
-                .attr("width", x1.rangeBand())
-                .attr("x", function (d) {
-                    return x1(d.column);
-                })
-                .attr("y", function (d) {
-                    return y(d.yend);
-                })
-                .attr("height", function (d) {
-                    //console.log(y(d.ybegin) - y(d.yend) + "Y begin");
-                    return y(d.ybegin) - y(d.yend);
-                })
-                .style("fill", function (d) {
-                    return color(d.column);
-                })
-                .style("fill-opacity", function (d) {
-                    //console.log(z(d.yend - d.ybegin) + "The Tickesn");
-                    return z(d.yend - d.ybegin);
-                })
-                .style("stroke-width", 0.3) // set the stroke width
-                .style("stroke", "#545050");
-        });
-    </script>
+</body>
+<!-- /blue -->
+<!-- Add content to the popup -->
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="js/jquery.range-min.js" charset="utf-8" type="text/javascript"></script>
+<script src="js/stackedbarchart.js"></script>

@@ -54,6 +54,11 @@ CreateStackedBarChartJSON.prototype.createJSONObject = function (workbook) {
                     name = name.replace(/"/g, "");
                     var comic_name = name + "_" + comicid;
                     comic_name = comic_name.replace(/"/g, "");
+                    var comicName_cell = 'E' + row;
+                    var title = JSON.stringify(workbook[comicName_cell].v);
+                    title = title.replace(/"/g, "");
+                    var title = JSON.stringify(workbook[comicName_cell].v);
+                    title = title.replace(/"/g, "");
                     //console.log("print_price:" + print_price);
                     if (parseFloat(print_price) > 0) {
                         var beginPrice = 0;
@@ -68,7 +73,7 @@ CreateStackedBarChartJSON.prototype.createJSONObject = function (workbook) {
                         } else {
                             this.priceValue.set(comic_year + ":" + name, endPrice);
                         }
-                        var price_obj = new PriceObject(comic_name, name, beginPrice, endPrice);
+                        var price_obj = new PriceObject(comic_name, name, beginPrice, endPrice, title);
                         if (name == "Captain America") {
                             this.captainAmericaColumns.push(comic_name);
                         } else {
@@ -103,11 +108,12 @@ CreateStackedBarChartJSON.prototype.createData = function () {
     return dataArray.sort(compare);
 };
 
-function PriceObject(name, column, ybegin, yend) {
+function PriceObject(name, column, ybegin, yend, title) {
     this.name = name;
     this.column = column;
     this.ybegin = ybegin;
     this.yend = yend;
+    this.comicTitle = title;
 }
 
 function BarChartObject(innercolumns, data) {
