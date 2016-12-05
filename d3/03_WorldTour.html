@@ -18,6 +18,7 @@
             sens = 0.25,
             focused;
         var PlanetsNameMap = new Object();
+        var countryNameMap = new Object();
         var planetNames;
         var planetIndex = 0;
 
@@ -119,6 +120,11 @@
             });
 
             var outerSpaceId = 0;
+            var outerSpace = 0;
+            var earth = 0;
+            var fictional = 0
+            var dualCitizen = 0;
+            var unrevealed = 0;
             marvel.forEach(function (d) {
                 if (d.location != "null" && d.location != "undefined" && d.location != undefined) {
                     option = marvelList.append("option");
@@ -134,13 +140,36 @@
                         } else {
                             PlanetsNameMap[d.location] = 1;
                         }
+                        outerSpace++;
+                    } else if (d.locationType == "Real") {
+                        if (d.location in countryNameMap) {
+                            var charCount = parseInt(countryNameMap[d.location]);
+                            countryNameMap[d.location] = charCount + 1;
+                        } else {
+                            countryNameMap[d.location] = 1;
+                        }
+                        earth++;
+                    } else if (d.locationType == "Fictional") {
+                        fictional++;
+                    } else if (d.locationType == "Dual Citizen") {
+                        dualCitizen++;
+                    } else {
+                        unrevealed++;
                     }
                 }
             });
             planetNames = Object.keys(PlanetsNameMap)
 
 
-            //console.log("Planets:" + JSON.stringify(PlanetsNameMap));
+            console.log("Planets:" + JSON.stringify(PlanetsNameMap));
+            console.log("countries:" + JSON.stringify(countryNameMap));
+            console.log("Total outerSpace:" + outerSpace);
+            console.log("Total earth:" + earth);
+            console.log("Total fictional:" + fictional);
+            console.log("Total dualCitizen:" + dualCitizen);
+            console.log("Total unrevealed:" + unrevealed);
+
+
 
             //Create a list of random stars and add them to outerspace
             console.log("Cretaing Star");

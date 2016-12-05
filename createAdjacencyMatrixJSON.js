@@ -93,7 +93,12 @@ CreateAdjacencyMatrixJSON.prototype.createNodeListJSON = function () {
         var characterID = characters_wk["A" + i].v;
         var characterName = characters_wk["B" + i].v;
         var comicCount = characters_wk["C" + i].v;
-        var nodeObject = new nodeListJson(characterName, characterID, order, order, comicCount);
+        var groups = "None";
+        if (characters_wk["R" + i] != undefined) {
+            groups = characters_wk["R" + i].v;
+        }
+
+        var nodeObject = new nodeListJson(characterName, characterID, groups, order, comicCount);
         nodeListArray.push(nodeObject);
         this.nodeOrder.set(characterName, order);
         this.nodeID.set(characterName, characterID);

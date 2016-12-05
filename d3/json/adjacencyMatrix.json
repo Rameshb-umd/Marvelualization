@@ -3,350 +3,350 @@
         {
             "name": "Spider-Man",
             "id": 1009610,
-            "group": 1,
+            "group": "Avengers",
             "order": 0,
             "comicCount": 2812
     },
         {
             "name": "Iron Man",
             "id": 1009368,
-            "group": 1,
+            "group": "Avengers",
             "order": 1,
             "comicCount": 2075
     },
         {
             "name": "Captain America",
             "id": 1009220,
-            "group": 1,
+            "group": "Avengers",
             "order": 2,
             "comicCount": 1513
     },
         {
             "name": "Hulk",
             "id": 1009351,
-            "group": 1,
+            "group": "Avengers",
             "order": 3,
             "comicCount": 1346
     },
         {
             "name": "Thor",
             "id": 1009664,
-            "group": 1,
+            "group": "Avengers",
             "order": 4,
             "comicCount": 1276
     },
         {
             "name": "Avengers",
             "id": 1009165,
-            "group": 1,
+            "group": "Avengers",
             "order": 5,
             "comicCount": 1125
     },
         {
             "name": "Fantastic Four",
             "id": 1009299,
-            "group": 2,
+            "group": "Fantastic Four",
             "order": 6,
             "comicCount": 1097
     },
         {
             "name": "Daredevil",
             "id": 1009262,
-            "group": 3,
+            "group": "Defenders",
             "order": 7,
             "comicCount": 847
     },
         {
             "name": "Human Torch",
             "id": 1009356,
-            "group": 2,
+            "group": "Fantastic Four",
             "order": 8,
             "comicCount": 804
     },
         {
             "name": "Cyclops",
             "id": 1009257,
-            "group": 4,
+            "group": "X-Men",
             "order": 9,
             "comicCount": 723
     },
         {
             "name": "Storm",
             "id": 1009629,
-            "group": 4,
+            "group": "X-Men",
             "order": 10,
             "comicCount": 623
     },
         {
             "name": "Beast",
             "id": 1009175,
-            "group": 4,
+            "group": "S.W.O.R.D",
             "order": 11,
             "comicCount": 589
     },
         {
             "name": "Colossus",
             "id": 1009243,
-            "group": 4,
+            "group": "X-Men",
             "order": 12,
             "comicCount": 555
     },
         {
             "name": "Sub-Mariner",
             "id": 1010791,
-            "group": 5,
+            "group": "X-Men",
             "order": 13,
             "comicCount": 536
     },
         {
             "name": "Archangel",
             "id": 1009159,
-            "group": 4,
+            "group": "X-Men",
             "order": 14,
             "comicCount": 534
     },
         {
             "name": "Doctor Strange",
             "id": 1009282,
-            "group": 1,
+            "group": "Avengers",
             "order": 15,
             "comicCount": 519
     },
         {
             "name": "Deadpool",
             "id": 1009268,
-            "group": 4,
+            "group": "X-Force",
             "order": 16,
             "comicCount": 512
     },
         {
             "name": "Nightcrawler",
             "id": 1009472,
-            "group": 4,
+            "group": "X-Men",
             "order": 17,
             "comicCount": 449
     },
         {
             "name": "Mr. Fantastic",
             "id": 1009459,
-            "group": 2,
+            "group": "Fantastic Four",
             "order": 18,
             "comicCount": 438
     },
         {
             "name": "Rogue",
             "id": 1009546,
-            "group": 4,
+            "group": "X-Men",
             "order": 19,
             "comicCount": 429
     },
         {
             "name": "Thing",
             "id": 1009662,
-            "group": 2,
+            "group": "Fantastic Four",
             "order": 20,
             "comicCount": 427
     },
         {
             "name": "Punisher",
             "id": 1009515,
-            "group": 3,
+            "group": "None",
             "order": 21,
             "comicCount": 407
     },
         {
             "name": "Iceman",
             "id": 1009362,
-            "group": 4,
+            "group": "X-Men",
             "order": 22,
             "comicCount": 402
     },
         {
             "name": "Invisible Woman",
             "id": 1009366,
-            "group": 2,
+            "group": "Fantastic Four",
             "order": 23,
             "comicCount": 389
     },
         {
             "name": "Silver Surfer",
             "id": 1009592,
-            "group": 2,
+            "group": "Defenders",
             "order": 24,
             "comicCount": 385
     },
         {
             "name": "Captain Marvel (Carol Danvers)",
             "id": 1010338,
-            "group": 1,
+            "group": "Avengers",
             "order": 25,
             "comicCount": 373
     },
         {
             "name": "Black Panther",
             "id": 1009187,
-            "group": 1,
+            "group": "Fantastic Four",
             "order": 26,
             "comicCount": 357
     },
         {
             "name": "Black Widow",
             "id": 1009189,
-            "group": 1,
+            "group": "Avengers",
             "order": 27,
             "comicCount": 324
     },
         {
             "name": "Gambit",
             "id": 1009313,
-            "group": 4,
+            "group": "X-Men",
             "order": 28,
             "comicCount": 318
     },
         {
             "name": "She-Hulk (Jennifer Walters)",
             "id": 1009583,
-            "group": 1,
+            "group": "Defenders",
             "order": 29,
             "comicCount": 311
     },
         {
             "name": "Nick Fury",
             "id": 1009471,
-            "group": 6,
+            "group": "S.H.I.E.L.D",
             "order": 30,
             "comicCount": 302
     },
         {
             "name": "Professor X",
             "id": 1009504,
-            "group": 4,
+            "group": "X-Men",
             "order": 31,
             "comicCount": 299
     },
         {
             "name": "Cable",
             "id": 1009214,
-            "group": 4,
+            "group": "X-Men",
             "order": 32,
             "comicCount": 293
     },
         {
             "name": "Vision",
             "id": 1009697,
-            "group": 1,
+            "group": "Avengers",
             "order": 33,
             "comicCount": 287
     },
         {
             "name": "Mary Jane Watson",
             "id": 1009708,
-            "group": 1,
+            "group": "Actors' Equity Association",
             "order": 34,
             "comicCount": 283
     },
         {
             "name": "Scarlet Witch",
             "id": 1009562,
-            "group": 1,
+            "group": "Avengers",
             "order": 35,
             "comicCount": 276
     },
         {
             "name": "Magneto",
             "id": 1009417,
-            "group": 4,
+            "group": "X-Men",
             "order": 36,
             "comicCount": 265
     },
         {
             "name": "Hawkeye",
             "id": 1009338,
-            "group": 1,
+            "group": "Avengers",
             "order": 37,
             "comicCount": 263
     },
         {
             "name": "Psylocke",
             "id": 1009512,
-            "group": 4,
+            "group": "X-Force",
             "order": 38,
             "comicCount": 263
     },
         {
             "name": "Bishop",
             "id": 1009182,
-            "group": 4,
+            "group": "X-Men",
             "order": 39,
             "comicCount": 241
     },
         {
             "name": "Iron Fist (Danny Rand)",
             "id": 1009367,
-            "group": 5,
+            "group": "Avengers",
             "order": 40,
             "comicCount": 239
     },
         {
             "name": "Cannonball",
             "id": 1009219,
-            "group": 4,
+            "group": "X-Men",
             "order": 41,
             "comicCount": 238
     },
         {
             "name": "Emma Frost",
             "id": 1009310,
-            "group": 4,
+            "group": "None",
             "order": 42,
             "comicCount": 234
     },
         {
             "name": "Hank Pym",
             "id": 1011490,
-            "group": 5,
+            "group": "Avengers",
             "order": 43,
             "comicCount": 233
     },
         {
             "name": "Havok",
             "id": 1009337,
-            "group": 4,
+            "group": "X-Men",
             "order": 44,
             "comicCount": 230
     },
         {
             "name": "Spider-Man (Ultimate)",
             "id": 1011010,
-            "group": 1,
+            "group": "None",
             "order": 45,
             "comicCount": 228
     },
         {
             "name": "Ghost Rider (Johnny Blaze)",
             "id": 1009318,
-            "group": 5,
+            "group": "None",
             "order": 46,
             "comicCount": 221
     },
         {
             "name": "Quicksilver",
             "id": 1009524,
-            "group": 2,
+            "group": "Avengers",
             "order": 47,
             "comicCount": 216
     },
         {
             "name": "Luke Cage",
             "id": 1009215,
-            "group": 5,
+            "group": "Avengers",
             "order": 48,
             "comicCount": 213
     },
         {
             "name": "J. Jonah Jameson",
             "id": 1009372,
-            "group": 1,
+            "group": "Century Clud",
             "order": 49,
             "comicCount": 210
     }

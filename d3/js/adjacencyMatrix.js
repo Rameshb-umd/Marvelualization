@@ -11,13 +11,40 @@
      z = d3.scale.linear().domain([0, 300]).clamp(true),
      c = d3.scale.category10().domain(d3.range(7));
 
+
+ var ObjectMap = {};
+
+ var colores_g = {};
+ colores_g["Avengers"] = "#3366cc";
+ colores_g["Fantastic Four"] = "#ff9900";
+ colores_g["Defenders"] = "#651067";
+ colores_g["X-Men"] = "#66aa00";
+ colores_g["X-Force"] = "#5574a6";
+ colores_g["None"] = "#8e1258";
+
+ for (var index in colores_g) {
+     var legend = '<span style="width:15px;height:15px;background:' + colores_g[index] +
+         '">&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;&nbsp;' + index + "&nbsp;&nbsp;&nbsp;&nbsp;";
+     $("#Legend").append(legend);
+     console.log(index + " : " + +"<br />");
+ }
+
+ function colores_google(n) {
+     if (n in colores_g) {
+         return colores_g[n];
+     } else {
+         return "Red";
+     }
+ }
+
  var svg = d3.select("#AdjacencyMatrix").append("svg")
      .attr("width", width + margin.left + margin.right)
      .attr("height", height + margin.top + margin.bottom)
      .attr("class", "MatrixSvg")
      .append("g")
      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
- var ObjectMap = {};
+
+
  d3.json("json/adjacencyMatrix.json", function (marvel) {
      var matrix = [],
          nodes = marvel.nodes,
@@ -37,8 +64,8 @@
          });
          var comicPT = Math.round((parseInt(node.comicCount) / totalComics) * 100);
          var html = '<li class="ui-state-default characterDragLi character_' + node.order + '" order="' + node.order + '"' +
-             '><div class= "CharacterDiv draggable">' +
-             '<div class="CharacterDivHeader" style="width:' + comicPT + '%"></div>' +
+             '><div class= "CharacterDiv draggable" ">' +
+             '<div class="CharacterDivHeader" style="width:' + comicPT + '%; background:' + colores_g[node.group] + '"></div>' +
              '<label class = "characterName"> ' + node.name + ' </label>' +
              '<label class = "comicCount">(' + node.comicCount + ' )</label></div></li> ';
          //console.log(html);
@@ -47,6 +74,7 @@
              stop: customSortFunction
          });
      });
+     //style="background:' + colores_g[node.group] + '
 
 
      // Convert links to matrix; count character occurrences.
@@ -64,7 +92,7 @@
              return nodes[b].comicCount - nodes[a].comicCount;
          }),
          group: d3.range(n).sort(function (a, b) {
-             return nodes[b].group - nodes[a].group;
+             return d3.ascending(nodes[a].group, nodes[b].group);
          })
      };
 
@@ -166,7 +194,7 @@
                  return z(d.z);
              })
              .style("fill", function (d) {
-                 return nodes[d.x].group == nodes[d.y].group ? c(nodes[d.x].group) : null;
+                 return nodes[d.x].group == nodes[d.y].group ? colores_google(nodes[d.x].group) : null;
              })
              .on("mouseover", mouseover)
              .on("mouseout", mouseout)
@@ -205,7 +233,6 @@
      }
 
      d3.select("#order").on("change", function () {
-         //clearTimeout(timeout);
          orderWrapper(this.value);
      });
 
@@ -224,9 +251,9 @@
                      var y = d3.select(this).attr("nodeY");
                      if (x != null) {
                          if (nodes[x].comicCount > nodes[y].comicCount) {
-                             return c(nodes[x].group);
+                             return colores_google(nodes[x].group);
                          } else {
-                             return c(nodes[y].group);
+                             return colores_google(nodes[y].group);
                          }
                      }
                  });
@@ -237,7 +264,7 @@
                      var x = d3.select(this).attr("nodeX");
                      var y = d3.select(this).attr("nodeY");
                      if (x != null) {
-                         return nodes[x].group == nodes[y].group ? c(nodes[x].group) : null;
+                         return nodes[x].group == nodes[y].group ? colores_google(nodes[x].group) : null;
                      }
 
                  });
