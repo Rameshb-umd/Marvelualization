@@ -190,7 +190,7 @@ function ready(error, world, countryData, marvel) {
                 var planetName = d.properties.name
                 var textmessage = planetName;
                 if (planetName in PlanetsNameMap) {
-                    textmessage = "<label>Country Name: &nbsp;</label><label class='ToolTipText'> " + planetName + "</label><br>" +
+                    textmessage = "<label>Marvel Planet Name: &nbsp;</label><label class='ToolTipText'> " + planetName + "</label><br>" +
                         "<label>Number of Marvel Characters: &nbsp;&nbsp;</label><label class='ToolTipText'> " + PlanetsNameMap[planetName] + "</label><br>";
                 }
                 countryTooltip.html(textmessage)
