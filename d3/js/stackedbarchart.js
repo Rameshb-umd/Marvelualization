@@ -27,7 +27,7 @@
      .tickFormat(d3.format(".2s"));
 
  var color = d3.scale.ordinal()
-     .range(["#FF0000", "#0080FF"]);
+     .range(["#0080FF", "#FF0000"]);
 
  var svg = d3.select("#StackedGroupChart").append("svg")
      .attr("width", width + margin.left + margin.right)

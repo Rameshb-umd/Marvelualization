@@ -204,6 +204,15 @@
 
      function onclickEvent(d) {
          //console.log(matrix[nodes[p.x].order][nodes[p.y].order].z + "??");
+
+         $('#Character1Name').text(nodes[d.x].name);
+         $('#Character2Name').text(nodes[d.y].name);
+         $('#Character1Group').text(nodes[d.x].group);
+         $('#Character2Group').text(nodes[d.y].group);
+         $('#Character1ComicCount').text(nodes[d.x].comicCount);
+         $('#Character2ComicCount').text(nodes[d.y].comicCount);
+         $('#commonCount').text(matrix[nodes[d.x].order][nodes[d.y].order].z);
+
          $('#my_popup').popup('show');
          //         var MarvelAPI = "http://gateway.marvel.com/v1/public/characters/" + nodes[d.x].id;
          //         $.getJSON(MarvelAPI, {
@@ -213,7 +222,7 @@
          //             .done(function (data) {
          //                 alert("Hi??");
          //             });
-         //alert(matrix[nodes[d.x].order][nodes[d.y].order].z + "??" + nodes[d.x].name + ":" + nodes[d.y].name + "Count" + nodes[d.x].comicCount);
+         //alert( + "??" + nodes[d.x].name + ":" + nodes[d.y].name + "Count" + nodes[d.x].comicCount);
      }
 
      function mouseover(p) {
